@@ -1,4 +1,4 @@
-23131900797687018
+23137075097475480
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94752,6 +94752,27 @@ CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
 2
 2
 [EastMakes] Connectors
+CONN-TH_XT60UPB-M
+
+
+0
+2
+2
+[EastMakes] Connectors
+MT60-F.G.Y
+
+
+0
+3
+3
+[EastMakes] Connectors
+RJ14_Connfly_DS1133-S6_Horizontal
+RJ14 connector 6P4C Horizontal http://www.connfly.com/userfiles/image/UpLoadFile/File/2012/10/26/DS1133.pdf
+RJ14 connector 6P4C Connfly DS1133
+0
+6
+6
+[EastMakes] LEDs
 SK6805-EC15
 
 

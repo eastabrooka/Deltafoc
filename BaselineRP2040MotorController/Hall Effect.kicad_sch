@@ -3913,7 +3913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RJ14 Footprint:RJ14_Connfly_DS1133-S6_Horizontal"
+		(property "Footprint" "[EastMakes] Connectors:RJ14_Connfly_DS1133-S6_Horizontal"
 			(at 52.07 71.12 0)
 			(effects
 				(font

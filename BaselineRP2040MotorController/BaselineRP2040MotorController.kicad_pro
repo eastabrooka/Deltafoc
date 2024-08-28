@@ -608,16 +608,8 @@
       "Hall Effect Encoders"
     ],
     [
-      "0568ddf9-71dd-4493-b52d-c4ea75b22b77",
-      "RS485 Communications"
-    ],
-    [
       "311f63f4-461d-4fa7-bd99-76972960c54b",
       "Voltage Sensing"
-    ],
-    [
-      "46089a62-ddf0-4d32-bea2-62355a9422c0",
-      "Temperature Sensing"
     ]
   ],
   "text_variables": {}

@@ -2,5 +2,6 @@
   (version 7)
   (lib (name "[EastMakes] Mosfets")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/MOSFETS/")(options "")(descr ""))
   (lib (name "[EastMakes] Capacitors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/Capacitors/")(options "")(descr ""))
-  (lib (name "[EastMakes] Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/LEDs/")(options "")(descr ""))
+  (lib (name "[EastMakes] LEDs")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/LEDs/")(options "")(descr ""))
+  (lib (name "[EastMakes] Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/Connectors/")(options "")(descr ""))
 )

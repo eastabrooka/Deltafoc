@@ -1328,7 +1328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "parts:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "[EastMakes] Connectors:CONN-TH_XT60UPB-M"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -1375,44 +1375,6 @@
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
 					(reference "J4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 175.26 142.24)
-		(size 17.78 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0568ddf9-71dd-4493-b52d-c4ea75b22b77")
-		(property "Sheetname" "RS485 Communications"
-			(at 175.26 141.5284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RS485.kicad_sch"
-			(at 175.26 159.3346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
-					(page "9")
 				)
 			)
 		)
@@ -1510,73 +1472,6 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
 					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 80.01 131.445)
-		(size 25.4 16.51)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "46089a62-ddf0-4d32-bea2-62355a9422c0")
-		(property "Sheetname" "Temperature Sensing"
-			(at 80.01 130.7334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Temperature_Sensing/Temperature_Sensing.kicad_sch"
-			(at 65.024 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SPI_CLK" input
-			(at 105.41 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a428530f-40aa-4d5e-a7e8-e1ab050a608c")
-		)
-		(pin "SPI_MISO" input
-			(at 105.41 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e3bd6901-a52b-4a78-a82a-e2db58522e59")
-		)
-		(pin "SPI_CS" input
-			(at 105.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d3b46b6f-6716-4b25-872a-8ce4ec4fc559")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
-					(page "11")
 				)
 			)
 		)

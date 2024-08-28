@@ -1714,7 +1714,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 249.8852 148.59 0)
 			(effects
 				(font
@@ -2510,7 +2510,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 260.0452 148.59 0)
 			(effects
 				(font
@@ -2754,7 +2754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:MT60-F.G.Y"
+		(property "Footprint" "[EastMakes] Connectors:MT60-F.G.Y"
 			(at 170.18 74.93 0)
 			(effects
 				(font
