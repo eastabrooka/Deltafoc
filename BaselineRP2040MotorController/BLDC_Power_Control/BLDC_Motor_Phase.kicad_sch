@@ -4722,7 +4722,7 @@
 			(at -234.95 -85.725 0)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 0.0254 0.0254)
 				)
 				(hide yes)
 			)
@@ -4731,7 +4731,7 @@
 			(at -234.95 -85.725 0)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 0.0254 0.0254)
 				)
 				(hide yes)
 			)
@@ -4858,7 +4858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "fdsaafds"
+		(property "Footprint" "[EastMakes] Mosfets:PowerPAK_SO-8_123"
 			(at 143.51 55.88 0)
 			(effects
 				(font
@@ -6587,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "afddaffdaafds"
+		(property "Footprint" "[EastMakes] Mosfets:PowerPAK_SO-8_123"
 			(at 152.4 71.12 0)
 			(effects
 				(font
