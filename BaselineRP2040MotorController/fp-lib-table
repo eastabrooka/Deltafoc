@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "RJ14 Footprint")(type "KiCad")(uri "C:/GIT/BaselineRP2040_MotorController/KicadFootprints/ComponentLibary/Connectors/RJ14")(options "")(descr ""))
   (lib (name "[EastMakes] Mosfets")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/MOSFETS/")(options "")(descr ""))
+  (lib (name "[EastMakes] Capacitors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/Capacitors/")(options "")(descr ""))
+  (lib (name "[EastMakes] Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/LEDs/")(options "")(descr ""))
 )
