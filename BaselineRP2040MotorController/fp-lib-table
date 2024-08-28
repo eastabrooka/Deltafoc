@@ -4,4 +4,5 @@
   (lib (name "[EastMakes] Capacitors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/Capacitors/")(options "")(descr ""))
   (lib (name "[EastMakes] LEDs")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/LEDs/")(options "")(descr ""))
   (lib (name "[EastMakes] Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/Connectors/")(options "")(descr ""))
+  (lib (name "[EastMakes] PiPico")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/PiPico/")(options "")(descr ""))
 )

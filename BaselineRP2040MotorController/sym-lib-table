@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "[EastMakes] PiPico")(type "KiCad")(uri "${KIPRJMOD}/../KicadFootprints/ComponentLibary/PiPico/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
 )
