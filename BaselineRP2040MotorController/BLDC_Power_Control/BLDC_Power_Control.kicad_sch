@@ -1045,16 +1045,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 106.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7023d4db-7e83-406d-837b-054e31b7a09e")
-	)
-	(wire
-		(pts
 			(xy 95.25 66.04) (xy 106.68 66.04)
 		)
 		(stroke
@@ -1359,19 +1349,6 @@
 			(justify right)
 		)
 		(uuid "747ae4ed-c933-4400-b9cf-8ff56bd2074b")
-	)
-	(hierarchical_label "X_SENSE"
-		(shape output)
-		(at 96.52 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "9aaf0682-0193-44ad-aa0c-8012ebb2bc97")
 	)
 	(hierarchical_label "VMOT_PWR"
 		(shape input)

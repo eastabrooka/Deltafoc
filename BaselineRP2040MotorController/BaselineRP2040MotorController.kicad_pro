@@ -216,7 +216,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_connected|647700|1193800|0e5b37cf-d187-4fb2-a8bb-b0113d1db1a5|00000000-0000-0000-0000-000000000000|/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118|/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118|",
+      "pin_not_connected|647700|1219200|82290ef1-77fc-4fca-8e37-c6a144e38773|00000000-0000-0000-0000-000000000000|/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118|/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118|"
+    ],
     "meta": {
       "version": 0
     },
@@ -606,10 +609,6 @@
     [
       "9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00",
       "Hall Effect Encoders"
-    ],
-    [
-      "311f63f4-461d-4fa7-bd99-76972960c54b",
-      "Voltage Sensing"
     ]
   ],
   "text_variables": {}

@@ -5088,10 +5088,22 @@
 		(uuid "b5a4a980-9556-4715-98bb-5dc2121640e9")
 	)
 	(junction
+		(at 49.53 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b77f5691-86cb-41e4-807a-af4237ac3a16")
+	)
+	(junction
 		(at 166.37 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb99135c-f6ec-4787-b20a-32c647d40e10")
+	)
+	(junction
+		(at 82.55 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc87562f-cc36-4680-8498-3f3264655e93")
 	)
 	(junction
 		(at 191.77 33.02)
@@ -5110,6 +5122,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d711a553-0134-4a52-96f1-bd04191d33d3")
+	)
+	(junction
+		(at 64.77 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0c1be9-a2a5-49ac-b215-40c02fc4b6fa")
 	)
 	(junction
 		(at 142.24 41.91)
@@ -5150,6 +5168,16 @@
 			(type default)
 		)
 		(uuid "01c39d01-8490-46df-86f9-579bbccdf7e7")
+	)
+	(wire
+		(pts
+			(xy 64.77 119.38) (xy 64.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01db218b-931b-45dd-a0e9-f50e8996060c")
 	)
 	(wire
 		(pts
@@ -5993,6 +6021,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 179.07) (xy 109.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7290233f-bcb9-4437-adbf-744cb82dc3df")
+	)
+	(wire
+		(pts
 			(xy 128.27 125.73) (xy 125.73 125.73)
 		)
 		(stroke
@@ -6230,6 +6268,16 @@
 			(type default)
 		)
 		(uuid "8ec88be1-9f5c-444d-ad6c-fe2d55e05a54")
+	)
+	(wire
+		(pts
+			(xy 104.14 180.34) (xy 109.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900db268-e12f-4ff3-a469-2a7556396791")
 	)
 	(wire
 		(pts
@@ -6753,6 +6801,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 180.34) (xy 135.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a84fe0-5389-4945-b434-aba204bfa56b")
+	)
+	(wire
+		(pts
 			(xy 82.55 43.18) (xy 82.55 53.34)
 		)
 		(stroke
@@ -6813,6 +6871,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 133.35) (xy 49.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5464c1-74d6-4de2-b06c-9e4ae8b22bef")
+	)
+	(wire
+		(pts
 			(xy 64.77 91.44) (xy 69.85 91.44)
 		)
 		(stroke
@@ -6863,6 +6931,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 121.92) (xy 64.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ad4588-5467-413e-a5ba-4b911fed8d57")
+	)
+	(wire
+		(pts
 			(xy 107.95 110.49) (xy 110.49 110.49)
 		)
 		(stroke
@@ -6910,6 +6988,16 @@
 			(type default)
 		)
 		(uuid "e8013d59-db5f-4dd1-80dd-fb73f4d56e98")
+	)
+	(wire
+		(pts
+			(xy 134.62 186.69) (xy 137.16 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8888fad-2f99-475d-b20c-511a2ba46fb0")
 	)
 	(wire
 		(pts
@@ -6973,6 +7061,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 180.34) (xy 135.89 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2087694-f92f-4a9a-a046-2605407cc2b9")
+	)
+	(wire
+		(pts
 			(xy 166.37 41.91) (xy 168.91 41.91)
 		)
 		(stroke
@@ -6983,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 76.2) (xy 82.55 77.47)
+			(xy 82.55 76.2) (xy 82.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7040,6 +7138,16 @@
 			(type default)
 		)
 		(uuid "f8184fba-fd0a-407c-9b13-c8401f0447d0")
+	)
+	(wire
+		(pts
+			(xy 137.16 186.69) (xy 137.16 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f861b211-3e2c-4e10-a81a-379790935732")
 	)
 	(wire
 		(pts
@@ -7656,6 +7764,21 @@
 		)
 		(uuid "56d8239e-70b3-4687-a22c-8421b09a2010")
 	)
+	(hierarchical_label "3V3+"
+		(shape bidirectional)
+		(at 134.62 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 221 133 0 1)
+			)
+			(justify right)
+		)
+		(uuid "59081760-57ca-429c-b1f3-a320e0838099")
+	)
 	(hierarchical_label "BLDC1_ENC1_SCK"
 		(shape input)
 		(at 217.17 128.27 0)
@@ -7682,6 +7805,21 @@
 		)
 		(uuid "6d25daac-0fd4-4f35-a8b1-7a0d5d0a83b9")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 134.62 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "7135fe32-7854-441f-83cc-9cd121280983")
+	)
 	(hierarchical_label "BLDC1_PWM_L_X"
 		(shape input)
 		(at 217.17 95.25 0)
@@ -7694,21 +7832,6 @@
 			(justify left)
 		)
 		(uuid "8c572ffe-a4a5-4b3a-8c5c-5dc50305f3bd")
-	)
-	(hierarchical_label "3V3+"
-		(shape input)
-		(at 30.48 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 221 133 0 1)
-			)
-			(justify right)
-		)
-		(uuid "8cc21706-3761-43ed-ac67-f2a7c4464a31")
 	)
 	(hierarchical_label "BLDC1_PHASE1_SENSE"
 		(shape input)
@@ -7736,6 +7859,21 @@
 		)
 		(uuid "b83cffc7-fef9-4498-9cc8-c654976a77ff")
 	)
+	(hierarchical_label "5V+"
+		(shape bidirectional)
+		(at 104.14 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 221 133 0 1)
+			)
+			(justify right)
+		)
+		(uuid "d57f3d41-da59-4df5-9f2a-96b22f10fb55")
+	)
 	(hierarchical_label "BLDC1_PWM_H_X"
 		(shape input)
 		(at 217.17 92.71 0)
@@ -7748,21 +7886,6 @@
 			(justify left)
 		)
 		(uuid "d745df21-b57b-44f8-a763-6cadbe315d6c")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 30.48 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "eab570b3-9db1-4b61-8316-65f4d680dc4c")
 	)
 	(hierarchical_label "BLDC1_PWM_L_U"
 		(shape input)
@@ -7870,7 +7993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 77.47 0)
+		(at 82.55 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7878,7 +8001,7 @@
 		(dnp no)
 		(uuid "01c7b839-742c-48ed-8401-1492582b1aba")
 		(property "Reference" "#PWR07"
-			(at 82.55 83.82 0)
+			(at 82.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 78.74 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 77.47 0)
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +8027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 77.47 0)
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +8036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 77.47 0)
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,6 +11754,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adfeb3df-1912-4b16-b5b4-a0fb6020805d")
+		(property "Reference" "#PWR0116"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e366bca6-4575-4062-87a3-8cbc34a1ba72")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:MBR340")
 		(at 73.66 91.44 180)
 		(unit 1)
@@ -11704,6 +11892,71 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 135.89 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afa78129-944a-40d3-989b-42f776bb1c7e")
+		(property "Reference" "#PWR069"
+			(at 135.89 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 136.271 174.6758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b19246a-2832-49c4-906b-9239648be937")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12145,6 +12398,71 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb5b7e12-c336-41e8-bc02-699a18d836f9")
+		(property "Reference" "#PWR068"
+			(at 137.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.287 192.3542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45258f9f-394e-4a4b-bfff-3bfa5b6c4898")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

@@ -409,16 +409,6 @@
 		)
 		(uuid "5070edd4-850e-4b0c-8990-0f22d8d6f4d3")
 	)
-	(wire
-		(pts
-			(xy 80.01 109.22) (xy 77.47 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560c114f-5b7d-4fb2-8359-2b8f1f32f836")
-	)
 	(polyline
 		(pts
 			(xy 73.66 29.21) (xy 77.47 29.21)
@@ -438,6 +428,16 @@
 			(type default)
 		)
 		(uuid "640ad5aa-4630-40eb-adec-2b8796a292ac")
+	)
+	(wire
+		(pts
+			(xy 118.11 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652b7265-7094-404b-8ee5-903b51a479af")
 	)
 	(wire
 		(pts
@@ -967,6 +967,17 @@
 		)
 		(uuid "7618a4e7-b3af-4bda-9af8-4628a55f7af3")
 	)
+	(label "5V"
+		(at 116.84 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7768ff3d-e382-4d9c-b90e-374e3a308198")
+	)
 	(label "3V3"
 		(at 116.84 86.36 180)
 		(fields_autoplaced yes)
@@ -999,17 +1010,6 @@
 			(justify left bottom)
 		)
 		(uuid "aaa6c29a-672b-487a-bc22-9801bd1fdff8")
-	)
-	(label "VMOT"
-		(at 77.47 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e7761876-3725-4585-9749-91f4d2926e2b")
 	)
 	(label "5V"
 		(at 107.95 83.82 0)
@@ -1380,103 +1380,6 @@
 		)
 	)
 	(sheet
-		(at 80.01 105.41)
-		(size 25.4 16.51)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "311f63f4-461d-4fa7-bd99-76972960c54b")
-		(property "Sheetname" "Voltage Sensing"
-			(at 80.01 104.6984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DC_Voltage_Sensor/DC_Voltage_Sensor.kicad_sch"
-			(at 64.516 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3" input
-			(at 105.41 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "54ea0df1-22e6-46df-b605-289fcf890e12")
-		)
-		(pin "GND" input
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1bb81821-5209-4b2b-b7e0-1db278c3daf5")
-		)
-		(pin "VMOT_PWR" input
-			(at 80.01 109.22 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9111612c-ab76-4d7e-b89e-e606230331ca")
-		)
-		(pin "SPI_CLK" input
-			(at 105.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fdb53cc4-d946-4e53-aa2f-969a2c20bc5d")
-		)
-		(pin "SPI_CS" input
-			(at 105.41 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "62efcca8-1de1-4f39-8f95-550197397a25")
-		)
-		(pin "SPI_MISO" input
-			(at 105.41 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cd0deffa-eb06-491f-969c-e63eca723b22")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 175.26 113.03)
 		(size 19.05 15.24)
 		(fields_autoplaced yes)
@@ -1516,7 +1419,7 @@
 			)
 			(uuid "9b3ee312-cc6c-4893-ad1d-6abaa874d5ac")
 		)
-		(pin "GND" input
+		(pin "GND" bidirectional
 			(at 175.26 125.73 180)
 			(effects
 				(font
@@ -1624,7 +1527,7 @@
 			)
 			(uuid "c4116a5a-26a0-4f78-8850-e2beb719b0a5")
 		)
-		(pin "GND" input
+		(pin "GND" bidirectional
 			(at 80.01 95.25 180)
 			(effects
 				(font
@@ -1762,16 +1665,6 @@
 			)
 			(uuid "24479d4d-795a-45c1-b2cc-24577a251e57")
 		)
-		(pin "X_SENSE" output
-			(at 175.26 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "09a27e67-2160-42c8-a14e-1a57734fb58e")
-		)
 		(pin "U_SENSE" output
 			(at 175.26 105.41 180)
 			(effects
@@ -1840,7 +1733,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" input
+		(pin "GND" bidirectional
 			(at 118.11 90.17 180)
 			(effects
 				(font
@@ -1969,6 +1862,16 @@
 				(justify right)
 			)
 			(uuid "ae5d748b-4974-4535-9cac-3832f234ad21")
+		)
+		(pin "5V+" input
+			(at 118.11 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b764a3a2-8669-4f1d-9f34-76fc4455e391")
 		)
 		(instances
 			(project "BaselineRP2040MotorController"
