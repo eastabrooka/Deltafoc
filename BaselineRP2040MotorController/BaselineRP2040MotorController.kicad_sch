@@ -1,0 +1,2091 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "085e5f08-c826-4caa-b8e2-0a741609456e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 63.5 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe27b096-68c1-43d3-82c2-ba13119f3eea")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0018c199-82d0-4d03-8e12-73f07a67b2af")
+	)
+	(wire
+		(pts
+			(xy 62.23 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037a65d1-aaff-42af-a419-efe470422334")
+	)
+	(polyline
+		(pts
+			(xy 35.56 17.78) (xy 88.9 17.78)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "07a47844-1972-428f-bd26-c7e0ddb31ae6")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad07261-35db-46c5-a495-c3f3fd2a9258")
+	)
+	(polyline
+		(pts
+			(xy 97.79 26.67) (xy 106.68 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0d1535-684b-43bf-9e59-33c7fee955d1")
+	)
+	(polyline
+		(pts
+			(xy 97.79 29.21) (xy 106.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cee30e1-bc14-4c40-bcc4-16e5425478e3")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd90b05-170c-476d-9a34-4ad1f0dbf1bb")
+	)
+	(polyline
+		(pts
+			(xy 33.02 33.02) (xy 33.02 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0b4cb9-a253-4fe2-8d1a-f97ed93153c7")
+	)
+	(polyline
+		(pts
+			(xy 69.85 48.26) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3038e474-cd3a-4326-9c10-698ac7518920")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ea6ffa-8fe8-4961-840a-31224cea568c")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340cdb90-c2a8-4917-a2c2-c1f2339cd069")
+	)
+	(wire
+		(pts
+			(xy 77.47 95.25) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3927c5be-7f58-45b7-a5f0-f48abb927f14")
+	)
+	(wire
+		(pts
+			(xy 62.23 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8bcba7-2d27-4ed7-9142-6d35b1bc7b9b")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a122fa3-6395-4989-a632-9c7527baa004")
+	)
+	(polyline
+		(pts
+			(xy 88.9 33.02) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4fb40edd-29e0-40aa-8a2d-e8d73ff132b8")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 175.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5070edd4-850e-4b0c-8990-0f22d8d6f4d3")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 77.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560c114f-5b7d-4fb2-8359-2b8f1f32f836")
+	)
+	(polyline
+		(pts
+			(xy 73.66 29.21) (xy 77.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567b5db0-d4e0-4a65-a287-7c8c11e33be7")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640ad5aa-4630-40eb-adec-2b8796a292ac")
+	)
+	(wire
+		(pts
+			(xy 175.26 115.57) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6822ca7b-8e98-4971-bc3a-59030458ed24")
+	)
+	(wire
+		(pts
+			(xy 175.26 125.73) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1b9190-b391-43a3-8eed-2e1811316ed9")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ea2945-02a9-4f39-8d79-cf0ec142ac48")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e84497b-7277-4f53-9f42-dd68489a067e")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c94f21-112f-431b-97b5-b64cb6959ffc")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 175.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a80a07-04f1-4915-b20d-1d9e3e904945")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e60cad-5204-4387-982a-29f918bc1707")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa8bd5f-d66b-46df-ac8c-690802b8b074")
+	)
+	(polyline
+		(pts
+			(xy 46.99 29.21) (xy 53.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4e0847-4fee-45c1-8bac-facdcde2c784")
+	)
+	(polyline
+		(pts
+			(xy 33.02 21.59) (xy 33.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd3243b-a4ae-4e3d-8856-9a75d03d8ec9")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9005b6-d92f-4eed-9a00-6b9cf7950ee0")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e16e204-56dc-4051-9e43-340d1b384bc6")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ac661b-e316-4f35-8b13-e0f7d90760b3")
+	)
+	(wire
+		(pts
+			(xy 172.72 125.73) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7bb933-e78f-42bb-8d26-3a715ee4c65c")
+	)
+	(polyline
+		(pts
+			(xy 88.9 17.78) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ae9b5f49-1d65-444d-8b36-3aaf743d65aa")
+	)
+	(polyline
+		(pts
+			(xy 33.02 44.45) (xy 33.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2146612-9387-4f16-99b7-ade342fb4db2")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7992e84-d1e3-432c-a0c6-7eecee53fd7d")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cf7cb4-0e33-49e3-a898-02f593c9d37d")
+	)
+	(polyline
+		(pts
+			(xy 33.02 58.42) (xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39e22fa-b8dd-40ee-ae61-1db2e694feae")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60102db-0b20-4f4a-acc0-8a3f46953da4")
+	)
+	(polyline
+		(pts
+			(xy 59.69 33.02) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cb7eb9-9576-4e4d-905a-0fba23ce27a4")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3a39ba-aee9-4cdc-a9cc-1873ce49b4ea")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfeefe6-6ef1-4a8c-846a-dd18e9fed0c0")
+	)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 152.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdd8ec7-fd20-4476-855f-cb8e2080436b")
+	)
+	(wire
+		(pts
+			(xy 152.4 100.33) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4963e7-a122-43ad-8b70-a8554e503e50")
+	)
+	(polyline
+		(pts
+			(xy 97.79 27.94) (xy 106.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58686de-0108-4f3f-97ff-7277f6e77928")
+	)
+	(polyline
+		(pts
+			(xy 77.47 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcea56a3-2771-47bf-8846-bd825f0dda0c")
+	)
+	(circle
+		(center 113.03 29.21)
+		(radius 6.35)
+		(stroke
+			(width 0.762)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 0 1)
+		)
+		(uuid 03801c74-c5da-4f2a-92ac-b89cb37b2d62)
+	)
+	(rectangle
+		(start 26.67 36.83)
+		(end 46.99 44.45)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 05723001-4a80-4d9f-b8c3-f6fe42a05138)
+	)
+	(rectangle
+		(start 64.77 40.64)
+		(end 73.66 48.26)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 3692e982-b2e8-45f4-9bb9-41821aa22e8a)
+	)
+	(rectangle
+		(start 77.47 40.64)
+		(end 97.79 48.26)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 40bae8ca-e5e5-43a1-970b-a616b2bd7eed)
+	)
+	(rectangle
+		(start 53.34 25.4)
+		(end 73.66 33.02)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 823520d0-b0ab-4be5-baed-e53ab2926a56)
+	)
+	(rectangle
+		(start 26.67 25.4)
+		(end 46.99 33.02)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid 989ad407-d6b3-4b2c-b25f-4dc0f44c70d5)
+	)
+	(rectangle
+		(start 53.34 54.61)
+		(end 73.66 62.23)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid ab511013-3534-4d77-8694-a5893f3e380b)
+	)
+	(rectangle
+		(start 77.47 25.4)
+		(end 97.79 33.02)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid ba6a6475-66e7-4fc2-b4df-c6c6690a41d5)
+	)
+	(rectangle
+		(start 15.24 13.97)
+		(end 35.56 21.59)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 194 194 1)
+		)
+		(uuid d524d08b-b5e3-410e-a787-23fe185ade84)
+	)
+	(text "Motor	"
+		(exclude_from_sim no)
+		(at 115.316 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "3efa627c-36aa-4301-ba62-3dcf70eed545")
+	)
+	(text "Mosfets"
+		(exclude_from_sim no)
+		(at 88.138 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5dba6056-23b8-4d3f-af90-ae1d44796fc8")
+	)
+	(text "VIN (14V or Higher)"
+		(exclude_from_sim no)
+		(at 25.4 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "95302517-b654-47b9-a944-07b803a046c0")
+	)
+	(text "OpAmps		"
+		(exclude_from_sim no)
+		(at 72.898 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9c4ab680-af7c-4710-a06a-ca95c173d3cf")
+	)
+	(text "Regulated \n12V Output"
+		(exclude_from_sim no)
+		(at 36.83 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9ca170fd-2516-412e-bbe5-c6ef17976f44")
+	)
+	(text "Regulated \n3.3V Output"
+		(exclude_from_sim no)
+		(at 36.83 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a9d52ab6-5a8a-4c2d-a28b-3f09726be553")
+	)
+	(text "Shunt Resistors"
+		(exclude_from_sim no)
+		(at 88.138 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c5edc0ee-a36d-4124-9507-c8061c6df68c")
+	)
+	(text "RP2040"
+		(exclude_from_sim no)
+		(at 63.5 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d87d4e19-e70a-4ce3-908e-1b214e1c50af")
+	)
+	(text "Mosfet Drivers"
+		(exclude_from_sim no)
+		(at 63.246 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fcb08a18-260d-420e-9b4e-dc082e2194bf")
+	)
+	(label "12V"
+		(at 172.72 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fcb86ee-79c8-4cbb-ba41-a688982bca0a")
+	)
+	(label "3V3"
+		(at 170.18 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12bf2dc7-ffde-40f3-ba99-cf0ecbd1ea74")
+	)
+	(label "3V3"
+		(at 107.95 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7618a4e7-b3af-4bda-9af8-4628a55f7af3")
+	)
+	(label "3V3"
+		(at 116.84 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fce7914-06ba-42d4-8e8a-496ee6844998")
+	)
+	(label "12V"
+		(at 107.95 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "970ffb90-9593-4d68-bf1c-7e6f729390d7")
+	)
+	(label "VMOT"
+		(at 107.95 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaa6c29a-672b-487a-bc22-9801bd1fdff8")
+	)
+	(label "VMOT"
+		(at 77.47 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7761876-3725-4585-9749-91f4d2926e2b")
+	)
+	(label "5V"
+		(at 107.95 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef424c9a-215f-47b8-a19e-e4e4056018c9")
+	)
+	(label "VMOT"
+		(at 172.72 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8d54038-f2f5-4c6a-adf6-3f34437223dc")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126294aa-ba42-400c-87e7-3a99bcadb0b3")
+		(property "Reference" "#PWR0102"
+			(at 77.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "185c5beb-e9fe-4bdc-9c5d-ceaa2ef8a737")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "394c1aa6-8468-4a32-ba32-3546e6187327")
+		(property "Reference" "#PWR0105"
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cc9478a-46d1-42a7-832c-53d46f21b2be")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aeef953-af2f-4452-9633-e948a3c680a0")
+		(property "Reference" "#PWR0127"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dca7a2be-ecca-4ce7-a152-73435776ae0f")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b14eef3f-2624-4ea7-a90c-055183dd7df3")
+		(property "Reference" "#PWR0107"
+			(at 172.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768df79f-9a2b-40cb-a19a-cb42faf7a5e1")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 57.15 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2a92236-0bdb-4c9f-a26f-3289e33891e5")
+		(property "Reference" "J4"
+			(at 59.055 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60 Power Connector"
+			(at 61.595 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "parts:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C428722"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f80ff78-a17d-48b2-b922-25f9c1ccb6a9")
+		)
+		(pin "2"
+			(uuid "b1a5dfd3-ed7d-41b0-875a-118a2134e382")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 142.24)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0568ddf9-71dd-4493-b52d-c4ea75b22b77")
+		(property "Sheetname" "RS485 Communications"
+			(at 175.26 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 175.26 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 105.41)
+		(size 25.4 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "311f63f4-461d-4fa7-bd99-76972960c54b")
+		(property "Sheetname" "Voltage Sensing"
+			(at 80.01 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC_Voltage_Sensor/DC_Voltage_Sensor.kicad_sch"
+			(at 64.516 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54ea0df1-22e6-46df-b605-289fcf890e12")
+		)
+		(pin "GND" input
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bb81821-5209-4b2b-b7e0-1db278c3daf5")
+		)
+		(pin "VMOT_PWR" input
+			(at 80.01 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9111612c-ab76-4d7e-b89e-e606230331ca")
+		)
+		(pin "SPI_CLK" input
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdb53cc4-d946-4e53-aa2f-969a2c20bc5d")
+		)
+		(pin "SPI_CS" input
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62efcca8-1de1-4f39-8f95-550197397a25")
+		)
+		(pin "SPI_MISO" input
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd0deffa-eb06-491f-969c-e63eca723b22")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 131.445)
+		(size 25.4 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46089a62-ddf0-4d32-bea2-62355a9422c0")
+		(property "Sheetname" "Temperature Sensing"
+			(at 80.01 130.7334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperature_Sensing/Temperature_Sensing.kicad_sch"
+			(at 65.024 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_CLK" input
+			(at 105.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a428530f-40aa-4d5e-a7e8-e1ab050a608c")
+		)
+		(pin "SPI_MISO" input
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3bd6901-a52b-4a78-a82a-e2db58522e59")
+		)
+		(pin "SPI_CS" input
+			(at 105.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3b46b6f-6716-4b25-872a-8ce4ec4fc559")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 113.03)
+		(size 19.05 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00")
+		(property "Sheetname" "Hall Effect Encoders"
+			(at 175.26 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hall Effect.kicad_sch"
+			(at 175.26 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3+" input
+			(at 175.26 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b3ee312-cc6c-4893-ad1d-6abaa874d5ac")
+		)
+		(pin "GND" input
+			(at 175.26 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bc90566-3b42-4cb4-b82b-f81bdb0ac4e6")
+		)
+		(pin "ENC1_RX" input
+			(at 175.26 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41831a43-ed24-445d-ab05-d5aefe6ffc56")
+		)
+		(pin "ENC1_CS" input
+			(at 175.26 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e55d086a-6010-4da5-a494-a23365c37b7d")
+		)
+		(pin "ENC1_SCK" input
+			(at 175.26 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0a553d7-ffdc-4208-9f91-3e1ef191a13b")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 73.66)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5115af5-a737-4622-b3b7-5bd23e25489a")
+		(property "Sheetname" "Power Filtering"
+			(at 80.01 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerFiltering.kicad_sch"
+			(at 80.01 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12V+" input
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a8e490c-26e5-414d-93c5-22f8c745b7eb")
+		)
+		(pin "5V+" input
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33c89101-a494-409e-8b39-171d635b4d6f")
+		)
+		(pin "3V3+" input
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4116a5a-26a0-4f78-8850-e2beb719b0a5")
+		)
+		(pin "GND" input
+			(at 80.01 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff9ad6d4-1ed4-4d54-9e79-7269e11f17cf")
+		)
+		(pin "VMOT" input
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36e0d7cd-0353-451e-9e75-d6139faf8d64")
+		)
+		(pin "VMOT_RAW" input
+			(at 80.01 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "876a42cf-3685-4a7b-8ad2-92546b86e5e3")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 73.66)
+		(size 43.18 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adfc6ecc-6038-43a2-a2be-baacb83b86f1")
+		(property "Sheetname" "BLDC Power Control"
+			(at 175.26 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLDC_Power_Control/BLDC_Power_Control.kicad_sch"
+			(at 175.26 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM_H_U" input
+			(at 175.26 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3cb02256-f3cf-4b39-951a-72414284aa84")
+		)
+		(pin "PWM_L_U" input
+			(at 175.26 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17abe95a-98fa-4582-ba8c-fa4f7b252c1b")
+		)
+		(pin "PWM_L_V" input
+			(at 175.26 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98f4db8e-8697-4baf-a3c0-0cacc2645dec")
+		)
+		(pin "PWM_H_V" input
+			(at 175.26 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "62eb560f-bd81-44fa-b00a-cfe0b6c71451")
+		)
+		(pin "PWM_H_X" input
+			(at 175.26 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c350a4b-f40d-48c6-9b74-976062558537")
+		)
+		(pin "PWM_L_X" input
+			(at 175.26 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "556ef82f-db4e-4538-a1a8-2168c51cf3b1")
+		)
+		(pin "V_SENSE" output
+			(at 175.26 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24479d4d-795a-45c1-b2cc-24577a251e57")
+		)
+		(pin "X_SENSE" output
+			(at 175.26 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09a27e67-2160-42c8-a14e-1a57734fb58e")
+		)
+		(pin "U_SENSE" output
+			(at 175.26 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39f1dc05-9779-4595-b9aa-9e4e63652e46")
+		)
+		(pin "GATE_DRIVER_PWR" input
+			(at 175.26 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a05e6eaf-9556-4259-a852-fbb0b20fe6f4")
+		)
+		(pin "VMOT_PWR" input
+			(at 175.26 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bf47057-4b38-416d-b957-a079b9d18188")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 73.66)
+		(size 34.29 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e81e2df5-cdb9-46cd-b8cd-a47b9b4f2118")
+		(property "Sheetname" "RaspberryPiPico"
+			(at 118.11 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RaspberryPiPico.kicad_sch"
+			(at 118.11 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 118.11 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bfa7640-c2e7-47c1-9836-44cf6ae07738")
+		)
+		(pin "3V3+" input
+			(at 118.11 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1e3e61b-0064-4cc1-8e8a-7fbb4ae7e201")
+		)
+		(pin "BLDC1_PWM_L_U" input
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e1805df-f62d-4257-b523-3e764bcf9c5a")
+		)
+		(pin "BLDC1_PWM_L_V" input
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4c671c9-f4ab-40cc-b654-0326cdc90d62")
+		)
+		(pin "BLDC1_PWM_H_V" input
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a330bbb-64e2-4c3e-950b-97103a0daddd")
+		)
+		(pin "BLDC1_PWM_H_U" input
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0afe1ace-2612-45bf-8bf7-158c0ae58717")
+		)
+		(pin "BLDC1_PWM_H_X" input
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6426473-5b0b-4554-a4a4-d80d117ef820")
+		)
+		(pin "BLDC1_PWM_L_X" input
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f034da0a-a998-4622-8f66-c89f31ca7778")
+		)
+		(pin "BLDC1_ENC1_SCK" input
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97cdb2cc-281b-4f32-ba81-e2f5dee8b7ce")
+		)
+		(pin "BLDC1_ENC1_CS" input
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa62d27a-d91d-44a8-896a-0cb8ca0335e4")
+		)
+		(pin "BLDC1_ENC1_RX" input
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6df8d974-ce4b-426d-932c-3b395f7fdc7f")
+		)
+		(pin "BLDC1_PHASE3_SENSE" input
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "524bf90d-92ca-4de0-b6bb-3c4078dcd92e")
+		)
+		(pin "BLDC1_PHASE1_SENSE" input
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae5d748b-4974-4535-9cac-3832f234ad21")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

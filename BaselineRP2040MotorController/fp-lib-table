@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RJ14 Footprint")(type "KiCad")(uri "C:/GIT/BaselineRP2040_MotorController/KicadFootprints/ComponentLibary/Connectors/RJ14")(options "")(descr ""))
+)

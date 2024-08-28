@@ -1,0 +1,6 @@
+[submodule "http://localhost:3000/eastabrooka/KicadFootprints.git"]
+	path = http://localhost:3000/eastabrooka/KicadFootprints.git
+	url = KicadFootprints
+[submodule "KicadFootprints"]
+	path = KicadFootprints
+	url = http://localhost:3000/eastabrooka/KicadFootprints.git
