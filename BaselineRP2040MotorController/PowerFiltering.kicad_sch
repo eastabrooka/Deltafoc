@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "7a43bcc7-9cf8-4602-a16c-4a14bbc1524e")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -1881,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 43.18 48.26)
+			(xy 38.1 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 76.2) (xy 43.18 76.2)
+			(xy 38.1 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 76.2) (xy 43.18 77.47)
+			(xy 43.18 49.53) (xy 43.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2241,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 43.18 30.48)
+			(xy 38.1 34.29) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2369,19 +2369,6 @@
 		)
 		(uuid "fe1744e3-f4ed-481e-99e9-91fcaee48251")
 	)
-	(arc
-		(start 73.66 74.93)
-		(mid 73.0324 70.7244)
-		(end 75.565 67.31)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 62030221-cc31-4f53-9481-ac82d6d1b601)
-	)
 	(rectangle
 		(start 74.93 12.7)
 		(end 186.69 42.545)
@@ -2425,17 +2412,6 @@
 		)
 		(uuid "4f896e3b-3208-499b-b688-fde474fa75b3")
 	)
-	(text "11.7-12.3V 2A"
-		(exclude_from_sim no)
-		(at 162.56 59.69 0)
-		(effects
-			(font
-				(size 0.6 0.6)
-			)
-			(justify left bottom)
-		)
-		(uuid "56be9d48-b396-4b85-83ef-d33ede6fc309")
-	)
 	(text "52 Volt input max"
 		(exclude_from_sim no)
 		(at 118.364 40.894 0)
@@ -2457,17 +2433,6 @@
 			(justify left bottom)
 		)
 		(uuid "c90acc47-b171-47b2-8381-375222d8ba15")
-	)
-	(text "10.5mm tall cap\n11mm module stack height"
-		(exclude_from_sim no)
-		(at 68.58 81.28 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "de88ec6e-8061-46f2-be68-e0ba605d0e04")
 	)
 	(text "Pi filter with ~18khz\ncutoff frequency"
 		(exclude_from_sim no)
@@ -2492,7 +2457,7 @@
 		(uuid "0fa3746d-5ff1-4ded-9d4e-26c12225d62a")
 	)
 	(label "VMOT_RAW"
-		(at 43.18 30.48 0)
+		(at 43.18 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2574,7 +2539,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 38.1 76.2 180)
+		(at 38.1 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2589,7 +2554,7 @@
 	)
 	(hierarchical_label "VMOT_RAW"
 		(shape bidirectional)
-		(at 38.1 30.48 180)
+		(at 38.1 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2604,7 +2569,7 @@
 	)
 	(hierarchical_label "12V+"
 		(shape bidirectional)
-		(at 38.1 48.26 180)
+		(at 38.1 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2784,7 +2749,7 @@
 	)
 	(symbol
 		(lib_id "MotorBuck:VMOT")
-		(at 43.18 39.37 0)
+		(at 43.18 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2793,7 +2758,7 @@
 		(fields_autoplaced yes)
 		(uuid "093c927c-e77a-4d10-94fa-9f27dcb0d3c5")
 		(property "Reference" "#PWR0123"
-			(at 43.18 43.18 0)
+			(at 39.37 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,11 +2767,12 @@
 			)
 		)
 		(property "Value" "VMOT"
-			(at 43.18 35.56 0)
+			(at 46.99 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2837,7 +2803,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 43.18 43.18 0)
+			(at 39.37 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2812,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"I\" model=\"VMOT\" lib=\"\""
-			(at 1.905 -59.69 0)
+			(at 142.24 -1.905 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -2855,7 +2821,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 1.905 -59.69 0)
+			(at 142.24 -1.905 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -3284,7 +3250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 77.47 0)
+		(at 43.18 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3292,7 +3258,7 @@
 		(dnp no)
 		(uuid "3d439f3a-d338-4c44-9495-30c15cdf4d58")
 		(property "Reference" "#PWR0126"
-			(at 43.18 83.82 0)
+			(at 43.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.307 81.8642 0)
+			(at 43.307 55.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 77.47 0)
+			(at 43.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 77.47 0)
+			(at 43.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 77.47 0)
+			(at 43.18 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4199,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 43.18 48.26 0)
+		(at 43.18 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4242,7 +4208,7 @@
 		(fields_autoplaced yes)
 		(uuid "abac720d-968d-4450-a6ea-445370ea7174")
 		(property "Reference" "#PWR0119"
-			(at 43.18 52.07 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,15 +4217,16 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 43.18 43.18 0)
+			(at 46.99 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 48.26 0)
+			(at 43.18 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 48.26 0)
+			(at 43.18 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4244,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 48.26 0)
+			(at 43.18 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
