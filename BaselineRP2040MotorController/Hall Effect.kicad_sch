@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "0e2d9632-997d-483f-8fb2-f6e06b7af76e")
 	(paper "A5")
+	(title_block
+		(title "BLDC Starting Point")
+		(comment 1 "Florian, Josh and EMF Group Release")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names

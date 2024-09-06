@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "7a43bcc7-9cf8-4602-a16c-4a14bbc1524e")
 	(paper "A5")
+	(title_block
+		(title "BLDC Starting Point")
+		(comment 1 "Florian, Josh and EMF Group Release")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

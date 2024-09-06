@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2719a9e8-0932-41ad-88ad-4b4584f8e549")
 	(paper "A5")
+	(title_block
+		(title "BLDC Starting Point")
+		(comment 1 "Florian, Josh and EMF Group Release")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA240A1D"
 			(pin_names

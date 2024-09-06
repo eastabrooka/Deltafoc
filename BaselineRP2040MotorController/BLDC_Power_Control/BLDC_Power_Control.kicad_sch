@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "2719a9e8-0932-41ad-88ad-4b4584f8e549")
 	(paper "A5")
+	(title_block
+		(title "BLDC Starting Point")
+		(comment 1 "Florian, Josh and EMF Group Release")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -2739,19 +2743,21 @@
 		(fields_autoplaced yes)
 		(uuid "fb7cabd3-c369-41c7-8db1-371f2fca697d")
 		(property "Reference" "J3"
-			(at 119.38 67.945 0)
+			(at 121.92 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 119.38 65.405 0)
+		(property "Value" "3 Pin XT30 / XT60"
+			(at 121.92 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "[EastMakes] Connectors:MT60-F.G.Y"
