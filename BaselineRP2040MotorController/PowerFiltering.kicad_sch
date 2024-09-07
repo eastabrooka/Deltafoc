@@ -1005,6 +1005,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MotorBuck:TX4139"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1606,10 +1708,22 @@
 		)
 	)
 	(junction
+		(at 26.67 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a3d61fe-408c-41ea-a078-9e4a1ac5d0c2")
+	)
+	(junction
 		(at 161.29 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49cef944-f1c8-43f6-aeaa-08736d73eff9")
+	)
+	(junction
+		(at 26.67 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4afc1b8c-6755-46a9-9b28-7701d8d90c6d")
 	)
 	(junction
 		(at 144.78 60.96)
@@ -1664,6 +1778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2632a64-afff-4a90-a022-11146b98ff63")
+	)
+	(junction
+		(at 26.67 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0a5571-4174-4740-973f-417c9f732267")
 	)
 	(junction
 		(at 133.35 60.96)
@@ -1843,6 +1963,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 90.17) (xy 26.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406dd81a-03be-4450-8d99-f5a93e9fb035")
+	)
+	(wire
+		(pts
 			(xy 127 71.12) (xy 127 66.04)
 		)
 		(stroke
@@ -2003,6 +2133,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 85.09) (xy 26.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbc63ee-63a9-42c4-a327-00ad327f2350")
+	)
+	(wire
+		(pts
 			(xy 154.94 60.96) (xy 154.94 62.23)
 		)
 		(stroke
@@ -2133,6 +2273,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 80.01) (xy 26.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9745e8-0861-4fb4-bf1c-1d39c78a5570")
+	)
+	(wire
+		(pts
 			(xy 38.1 34.29) (xy 43.18 34.29)
 		)
 		(stroke
@@ -2180,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "cf721b83-e6e0-46f7-be06-07bb96a50f4a")
+	)
+	(wire
+		(pts
+			(xy 26.67 97.79) (xy 26.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4598add-7b56-4453-8638-704dffcd1b67")
 	)
 	(wire
 		(pts
@@ -2460,6 +2620,73 @@
 		(uuid "cf87c405-2086-4751-b1ba-97c7d8b27262")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 80.01 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00a15d16-b6d1-407d-87f8-2d16cb884289")
+		(property "Reference" "H1"
+			(at 33.02 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c44849-bf69-4405-ad01-8b447e60fa86")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MotorBuck:TX4139")
 		(at 114.3 63.5 0)
 		(unit 1)
@@ -2554,6 +2781,71 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03e92075-e23c-423a-945e-2c6da59aea9c")
+		(property "Reference" "#PWR07"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.797 102.1842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd2a7f1-aea8-45db-adec-bbc6fd135792")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3316,6 +3608,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 90.17 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552b2e09-ef5b-4905-b682-8e81e445d639")
+		(property "Reference" "H3"
+			(at 33.02 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b714c6e-41fe-443e-9783-db84b147ce25")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMF54A")
 		(at 120.65 30.48 270)
 		(unit 1)
@@ -3688,6 +4047,73 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 85.09 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90aa2f30-a22c-415e-90ae-99629db023ae")
+		(property "Reference" "H2"
+			(at 33.02 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95868a75-994d-4ecd-9284-15352b553e96")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4517,6 +4943,73 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 95.25 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df3721b6-4fef-4ae9-a891-908195910a66")
+		(property "Reference" "H4"
+			(at 33.02 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b31014f7-46a3-434c-a188-aa915e45987e")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/a5115af5-a737-4622-b3b7-5bd23e25489a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
