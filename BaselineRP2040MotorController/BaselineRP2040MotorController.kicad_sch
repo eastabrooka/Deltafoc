@@ -148,7 +148,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x08_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -162,7 +162,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x08_Counter_Clockwise"
+			(property "Value" "Conn_02x08_Odd_Even"
 				(at 1.27 -12.7 0)
 				(effects
 					(font
@@ -188,7 +188,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -215,7 +215,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x08_Counter_Clockwise_1_1"
+			(symbol "Conn_02x08_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -422,7 +422,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -440,7 +440,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -458,7 +458,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -476,7 +476,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -494,7 +494,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -512,7 +512,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -530,7 +530,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -548,7 +548,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -566,7 +566,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -584,7 +584,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -602,7 +602,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -620,7 +620,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -638,7 +638,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -656,7 +656,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -674,7 +674,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -969,6 +969,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbaaf36-8ffa-45bb-9ec6-5b06f99ab321")
+	)
+	(wire
+		(pts
 			(xy 116.84 96.52) (xy 120.65 96.52)
 		)
 		(stroke
@@ -1130,16 +1140,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e16e204-56dc-4051-9e43-340d1b384bc6")
-	)
-	(wire
-		(pts
 			(xy 133.35 93.98) (xy 137.16 93.98)
 		)
 		(stroke
@@ -1157,6 +1157,16 @@
 			(type default)
 		)
 		(uuid "a26c350f-1035-48b5-bb19-3f588537e123")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72983e3-73cd-4e38-a4b9-52815761d00a")
 	)
 	(wire
 		(pts
@@ -1328,6 +1338,16 @@
 			(type default)
 		)
 		(uuid "de121ae3-fba6-498a-b61e-f6c000c8d2bf")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3689415-27c4-4534-87c3-899ad6060e8d")
 	)
 	(polyline
 		(pts
@@ -1647,7 +1667,7 @@
 		(uuid "341555c1-7187-4a18-8430-4ef1fd587f65")
 	)
 	(label "VMOT_RAW"
-		(at 50.8 76.2 0)
+		(at 49.53 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1790,17 +1810,6 @@
 			(justify left bottom)
 		)
 		(uuid "9fbd5d23-9664-4a02-b268-d82d0c23c6d2")
-	)
-	(label "VMOT"
-		(at 91.44 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aaa6c29a-672b-487a-bc22-9801bd1fdff8")
 	)
 	(label "CurrentSense2"
 		(at 170.18 107.95 180)
@@ -2250,116 +2259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x08_Counter_Clockwise")
-		(at 125.73 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1e3b4fd-64fe-4d73-9289-38fbec13b428")
-		(property "Reference" "J1"
-			(at 127 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "To UC"
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2c6a4f5-c5aa-4ca2-a245-a6748d24d8a0")
-		)
-		(pin "5"
-			(uuid "8ef7fd03-14e2-4eb3-930e-06c076c4d286")
-		)
-		(pin "6"
-			(uuid "db8a4c0d-ae00-403b-8742-36c516d613fe")
-		)
-		(pin "7"
-			(uuid "78e47e5f-47ab-492c-a701-64d8dcf7a8de")
-		)
-		(pin "8"
-			(uuid "3ab9fc1e-7aee-4eb9-ae16-8989eec20276")
-		)
-		(pin "16"
-			(uuid "17853424-625a-407c-a8df-b9cf7a973eb2")
-		)
-		(pin "9"
-			(uuid "ed249c4d-f1a1-4282-9da3-8b04a476c62d")
-		)
-		(pin "10"
-			(uuid "79bd5fa8-bc1f-4ee7-a6ce-16fc779ab9ee")
-		)
-		(pin "11"
-			(uuid "851a764d-1d3d-4ee2-8304-fe9b1c8a23b6")
-		)
-		(pin "13"
-			(uuid "6d7bd555-0a88-4f6b-93f9-36884e30bb0d")
-		)
-		(pin "12"
-			(uuid "109863a8-c34b-436e-90ce-673584a9395e")
-		)
-		(pin "2"
-			(uuid "b92274a9-71f7-48db-8984-a3b38da372f2")
-		)
-		(pin "14"
-			(uuid "825c8504-8534-4294-943b-a546fee26c45")
-		)
-		(pin "3"
-			(uuid "b72282ef-3e46-4cfc-aa27-a114d39f2152")
-		)
-		(pin "4"
-			(uuid "86cb46c5-d76d-4d19-9f78-e6a13f542639")
-		)
-		(pin "15"
-			(uuid "87f3183e-fa2a-411b-8bc2-757de8161cbc")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 40.64 78.74 180)
 		(unit 1)
@@ -2432,6 +2331,116 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
+		(at 128.27 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe72a0dd-83c3-4295-a8f0-3048aba2491b")
+		(property "Reference" "J5"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x08_Odd_Even"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "8348fa11-7d28-4bab-84ea-5ff8b220368e")
+		)
+		(pin "10"
+			(uuid "6e8cd4df-afdf-404f-9787-3c8b01677b7c")
+		)
+		(pin "16"
+			(uuid "ae2171ef-e690-4943-9bc4-2f6f07c228c8")
+		)
+		(pin "4"
+			(uuid "d69b7eb1-8162-4f14-b716-f7715ad3ea61")
+		)
+		(pin "8"
+			(uuid "897b7f72-e4fd-4aaf-9ef0-d804295fa98a")
+		)
+		(pin "3"
+			(uuid "b661bac4-4b84-4202-8b73-41a955c6f4ec")
+		)
+		(pin "6"
+			(uuid "90c3d2d6-5082-4534-9270-5b362397f2bd")
+		)
+		(pin "1"
+			(uuid "b5ef5a32-d703-4c48-9050-a984f2de43bb")
+		)
+		(pin "13"
+			(uuid "7e866686-b692-4b0e-8ddb-b4ab18d6855a")
+		)
+		(pin "5"
+			(uuid "46ad78a3-edad-4c1b-b28c-e4908b1f17f9")
+		)
+		(pin "2"
+			(uuid "9a114194-7c6d-4be0-b7ae-9b22c4f9e81b")
+		)
+		(pin "15"
+			(uuid "26a57294-5d84-47f2-ac0f-420631181f24")
+		)
+		(pin "9"
+			(uuid "125a365d-69d5-4af3-9ef5-3060b6594f21")
+		)
+		(pin "14"
+			(uuid "b84795ac-9f45-41c6-80ab-f9be03033f4b")
+		)
+		(pin "7"
+			(uuid "cd8a3ae2-830c-4018-a7fe-0d6a512ee316")
+		)
+		(pin "11"
+			(uuid "cedffcc2-f952-4912-9a29-6e7bf52ef74e")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2574,16 +2583,6 @@
 				(justify left)
 			)
 			(uuid "ff9ad6d4-1ed4-4d54-9e79-7269e11f17cf")
-		)
-		(pin "VMOT" input
-			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "36e0d7cd-0353-451e-9e75-d6139faf8d64")
 		)
 		(pin "VMOT_RAW" input
 			(at 63.5 76.2 180)

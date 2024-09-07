@@ -1492,144 +1492,6 @@
 				)
 			)
 		)
-		(symbol "MotorBuck:VMOT"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VMOT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VMOT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Spice_Primitive" "I"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Spice_Netlist_Enabled" "Y"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VMOT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VMOT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VMOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MotorController:TAYLOR_RESISTOR"
 			(pin_numbers hide)
 			(pin_names
@@ -3892,6 +3754,93 @@
 	)
 	(symbol
 		(lib_id "MotorController:TAYLOR_RESISTOR")
+		(at 167.64 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18c805ea-d9a3-4c71-bd06-945c81808ddf")
+		(property "Reference" "R4"
+			(at 165.862 54.61 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0"
+			(at 163.83 54.102 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933129"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "309e5a93-896c-4021-a3a1-8c070076a173")
+		)
+		(pin "2"
+			(uuid "586fc60a-4d43-4f15-b260-5185685ae1be")
+		)
+		(instances
+			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MotorController:TAYLOR_RESISTOR")
 		(at 76.2 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4876,107 +4825,6 @@
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorBuck:VMOT")
-		(at 100.33 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5838052f-fb40-41fe-85dc-7a2cf3eb84ac")
-		(property "Reference" "#PWR062"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VMOT"
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"I\" model=\"VMOT\" lib=\"\""
-			(at -275.59 -95.885 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at -275.59 -95.885 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cafb5440-1e7b-4878-866a-0de3316446b5")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "#PWR062")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6607,93 +6455,6 @@
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 167.64 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3598ef3-4429-46da-a11f-cd70f14fa950")
-		(property "Reference" "R1"
-			(at 169.418 52.832 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 165.608 53.848 0)
-			(effects
-				(font
-					(size 1.651 1.651)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 167.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2688862"
-			(at 167.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4da64d82-cc09-4dfd-bd26-f7fbad1c997e")
-		)
-		(pin "2"
-			(uuid "15839188-47de-4a75-8d1b-29e1d5d25158")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R3")
 					(unit 1)
 				)
 			)
