@@ -846,12 +846,6 @@
 		(uuid "503ab8a6-b1a7-48be-87ec-3bfdbaab90f6")
 	)
 	(junction
-		(at 125.73 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a40a6c68-60fe-43d3-8333-4c627336acd9")
-	)
-	(junction
 		(at 177.8 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -899,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 34.29) (xy 125.73 33.02)
+			(xy 125.73 35.56) (xy 125.73 34.29)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 24.13) (xy 125.73 25.4)
+			(xy 125.73 24.13) (xy 125.73 26.67)
 		)
 		(stroke
 			(width 0)
@@ -926,16 +920,6 @@
 			(type default)
 		)
 		(uuid "341b3391-99b3-424c-b320-8c4216d6de3c")
-	)
-	(wire
-		(pts
-			(xy 124.46 25.4) (xy 125.73 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3baf829d-5692-48ef-844f-62f68faf361d")
 	)
 	(wire
 		(pts
@@ -1377,19 +1361,6 @@
 		)
 		(uuid "b1966bd6-f755-49c4-9638-b6781fa28809")
 	)
-	(hierarchical_label "VMOT_PWR"
-		(shape input)
-		(at 124.46 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "b27bd17f-10c2-442b-aae6-986f16fcd63a")
-	)
 	(hierarchical_label "PWM_L_V"
 		(shape input)
 		(at 45.72 59.69 180)
@@ -1529,8 +1500,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ac37274-2835-4d87-a131-d958dd50d4c9")
-		(property "Reference" "#PWR074"
+		(uuid "2fb27eeb-1af7-4bdd-adf9-11cea0ab6f94")
+		(property "Reference" "#PWR06"
 			(at 125.73 27.94 0)
 			(effects
 				(font
@@ -1539,7 +1510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VMOT"
+		(property "Value" "VMOT_PWR"
 			(at 125.73 20.32 0)
 			(effects
 				(font
@@ -1602,12 +1573,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fa352d8-7d49-4560-adee-bf5409756adb")
+			(uuid "8007768b-e380-4276-817b-b80642e973a5")
 		)
 		(instances
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1"
-					(reference "#PWR074")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 34.29 0)
+		(at 125.73 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1789,7 +1760,7 @@
 		(fields_autoplaced yes)
 		(uuid "72622db2-ccc5-48a0-8f8f-05e4e833453f")
 		(property "Reference" "#PWR075"
-			(at 125.73 40.64 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 39.37 0)
+			(at 125.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 34.29 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 34.29 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 34.29 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF54A")
-		(at 125.73 29.21 270)
+		(at 125.73 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1855,7 +1826,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e173855-73e8-4411-8f45-304276850275")
 		(property "Reference" "D14"
-			(at 128.27 28.575 90)
+			(at 128.27 29.845 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1835,7 @@
 			)
 		)
 		(property "Value" "SMDJ51CA"
-			(at 128.27 31.115 90)
+			(at 128.27 32.385 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 120.65 29.21 0)
+			(at 120.65 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,15 +1853,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 125.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 54Vrwm, SMF"
 			(at 125.73 29.21 0)
 			(effects
 				(font
@@ -1899,8 +1861,17 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 54Vrwm, SMF"
+			(at 125.73 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC" "C406702"
-			(at 125.73 29.21 90)
+			(at 125.73 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VMOT"
+		(property "Value" "VMOT_PWR"
 			(at 140.97 20.32 0)
 			(effects
 				(font
@@ -2189,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VMOT"
+		(property "Value" "VMOT_PWR"
 			(at 162.56 20.32 0)
 			(effects
 				(font
@@ -2413,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VMOT"
+		(property "Value" "VMOT_PWR"
 			(at 151.13 20.32 0)
 			(effects
 				(font
@@ -2658,7 +2629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VMOT"
+		(property "Value" "VMOT_PWR"
 			(at 177.8 17.145 0)
 			(effects
 				(font
