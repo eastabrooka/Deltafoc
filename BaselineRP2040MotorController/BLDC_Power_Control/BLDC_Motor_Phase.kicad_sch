@@ -1416,16 +1416,16 @@
 		(uuid "0cbe5d5b-bcab-40a9-adcb-bc02b23644b1")
 	)
 	(junction
-		(at 67.31 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30e88927-8cec-4741-ba49-7881467ea0ee")
-	)
-	(junction
 		(at 64.77 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40990fb2-eb25-43a9-8fc8-f91d94baa4e7")
+	)
+	(junction
+		(at 67.31 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541af239-42be-467b-a0dd-514b8bad1722")
 	)
 	(junction
 		(at 85.09 63.5)
@@ -1467,7 +1467,7 @@
 		(at 64.77 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d29bf9e1-3573-4e49-a8e4-6002197e5c21")
+		(uuid "ca826f83-ba90-456b-a554-46d271b03588")
 	)
 	(junction
 		(at 118.11 55.88)
@@ -1547,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 66.04 62.23)
+			(xy 64.77 62.23) (xy 77.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1667,16 +1667,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 76.2 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605dac2f-3ab1-4bbb-968b-8c6343575e25")
-	)
-	(wire
-		(pts
 			(xy 48.26 35.56) (xy 48.26 45.72)
 		)
 		(stroke
@@ -1774,6 +1764,16 @@
 			(type default)
 		)
 		(uuid "7964df42-b74a-4d13-8fa6-a2c369b99545")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820857d0-7e53-4179-8f9f-e23c2d43b840")
 	)
 	(wire
 		(pts
@@ -1937,16 +1937,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d974e845-50f4-4229-8d78-e5d8bda3d304")
-	)
-	(wire
-		(pts
 			(xy 26.67 50.8) (xy 30.48 50.8)
 		)
 		(stroke
@@ -2007,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 35.56) (xy 57.15 35.56)
+			(xy 55.88 35.56) (xy 67.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2713,92 +2703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 69.85 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fb9855f-04f9-46df-91ce-fa94d804b6e0")
-		(property "Reference" "R39"
-			(at 70.485 44.2214 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 71.755 47.117 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 69.85 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5314295-7e06-4c9c-9214-b6b16e5cd569")
-		)
-		(pin "2"
-			(uuid "2b54b760-8ed9-48f1-950b-433fa77b792b")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 74.93 0)
 		(unit 1)
@@ -3333,92 +3237,6 @@
 	)
 	(symbol
 		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 71.12 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb4532da-17db-4137-a45e-a470d64acf6f")
-		(property "Reference" "R40"
-			(at 67.31 60.7314 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 67.945 66.167 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "453b3c41-88ef-443d-9f37-7389a1226e23")
-		)
-		(pin "2"
-			(uuid "864944aa-8a67-4270-b355-efbd8c3fea2c")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
 		(at 77.47 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3761,92 +3579,6 @@
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
 					(reference "AL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 62.23 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6155c67-571f-4f34-84b1-4196939700d5")
-		(property "Reference" "R38"
-			(at 58.42 34.0614 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 60.325 39.497 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 62.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c0c7274-ff9c-4f5c-a398-d0f8c379abdf")
-		)
-		(pin "2"
-			(uuid "31bd7681-6aad-4992-9579-def20cd11900")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R25")
 					(unit 1)
 				)
 			)
