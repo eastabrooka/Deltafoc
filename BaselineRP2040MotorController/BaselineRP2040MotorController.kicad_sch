@@ -1578,17 +1578,6 @@
 		)
 		(uuid "12bf2dc7-ffde-40f3-ba99-cf0ecbd1ea74")
 	)
-	(label "PWM L V"
-		(at 116.84 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1842ee50-c0ca-4f9c-8af5-0d6695039ed9")
-	)
 	(label "Encoder RX"
 		(at 171.45 133.35 180)
 		(fields_autoplaced yes)
@@ -1622,18 +1611,7 @@
 		)
 		(uuid "1e902ec5-730e-40c5-a222-43e24bfa1731")
 	)
-	(label "PWM H V"
-		(at 137.16 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2194f307-820c-4973-80fe-fec5670e1e70")
-	)
-	(label "PWM L X"
+	(label "PWM L V"
 		(at 116.84 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1642,7 +1620,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2d1d33bc-0df7-475a-85d6-8a8383ebe9e8")
+		(uuid "2220c106-45ef-476e-9eb6-d91849019a72")
 	)
 	(label "VMOT_RAW"
 		(at 168.91 76.2 180)
@@ -1721,7 +1699,7 @@
 		)
 		(uuid "56655375-d35c-468a-9876-fa18b3063dfe")
 	)
-	(label "PWM H X"
+	(label "PWM H V"
 		(at 137.16 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1730,7 +1708,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5e6e1cfb-33e6-4b96-887b-9a718b0450da")
+		(uuid "5a27fb49-f997-44c7-a53c-3d9ba602b454")
 	)
 	(label "PWM L V"
 		(at 167.64 92.71 180)
@@ -1742,6 +1720,28 @@
 			(justify right bottom)
 		)
 		(uuid "685d5d55-f7ce-4d1d-afd4-11f9932ad93b")
+	)
+	(label "PWM H X"
+		(at 137.16 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b7c7fd6-8140-45fc-9e62-0b9306d63102")
+	)
+	(label "PWM L X"
+		(at 116.84 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cd80e16-f311-4128-9558-f4ced40c4dcc")
 	)
 	(label "CurrentSense3"
 		(at 170.18 111.76 180)

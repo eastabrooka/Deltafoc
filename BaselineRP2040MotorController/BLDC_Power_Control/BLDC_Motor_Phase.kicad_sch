@@ -823,305 +823,6 @@
 				)
 			)
 		)
-		(symbol "Device:Q_PNP_BEC"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PNP_BEC"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP transistor, base/emitter/collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PNP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PNP_BEC_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PNP_BEC_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:SMF54A"
 			(pin_numbers hide)
 			(pin_names
@@ -2060,16 +1761,10 @@
 		(uuid "0730ab0b-1943-44c3-b046-3ccb58c702f1")
 	)
 	(junction
-		(at 83.82 48.26)
+		(at 87.63 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cbe5d5b-bcab-40a9-adcb-bc02b23644b1")
-	)
-	(junction
-		(at 106.68 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ec396d2-de25-4047-a27a-c55c7d085c67")
 	)
 	(junction
 		(at 129.54 39.37)
@@ -2078,10 +1773,10 @@
 		(uuid "164a494b-0103-4568-b5cf-3d2bddb55ece")
 	)
 	(junction
-		(at 64.77 69.85)
+		(at 67.31 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23c9e6d9-68b5-4e32-821e-ece81f5abdbd")
+		(uuid "1f3e6578-b75b-4e8d-b95e-49d6306f2576")
 	)
 	(junction
 		(at 67.31 35.56)
@@ -2090,13 +1785,7 @@
 		(uuid "30e88927-8cec-4741-ba49-7881467ea0ee")
 	)
 	(junction
-		(at 114.3 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e7b410c-7621-4b2c-8b11-16b3051d0843")
-	)
-	(junction
-		(at 64.77 62.23)
+		(at 67.31 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40990fb2-eb25-43a9-8fc8-f91d94baa4e7")
@@ -2108,7 +1797,7 @@
 		(uuid "59b9e9ad-352c-4a6d-ba11-c0acfc617ae5")
 	)
 	(junction
-		(at 85.09 62.23)
+		(at 87.63 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67efc828-8b50-4e6e-bde5-4f21dcb849cc")
@@ -2138,12 +1827,6 @@
 		(uuid "90af8c2d-c127-46f3-bdba-68ec6554eb03")
 	)
 	(junction
-		(at 101.6 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92b71ad3-d244-4458-bf1f-8bf8cc82b522")
-	)
-	(junction
 		(at 48.26 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2168,46 +1851,16 @@
 		(uuid "c17e8d2a-104c-4df0-9c5b-c41e032d8193")
 	)
 	(junction
-		(at 109.22 55.88)
+		(at 100.33 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3c1c331-2b9f-4470-9216-2e840ced6500")
+		(uuid "e6d92afc-9f72-49c2-a880-6eebc6356d97")
 	)
 	(junction
-		(at 100.33 39.37)
+		(at 100.33 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c8c4de93-8cb0-4b4f-9f26-ca414073b0d5")
-	)
-	(junction
-		(at 111.76 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caf08981-43a3-48d2-9ff1-0bc3d97f3a12")
-	)
-	(junction
-		(at 64.77 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d29bf9e1-3573-4e49-a8e4-6002197e5c21")
-	)
-	(junction
-		(at 90.17 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d707fe93-f3dc-49b3-85aa-634fa2316a7e")
-	)
-	(junction
-		(at 114.3 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e10f6db6-97ed-48b2-961e-9a5519f3b87e")
-	)
-	(junction
-		(at 109.22 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e58fa7ce-c305-4e30-a9de-084aee0d23d3")
+		(uuid "f381f246-d8a3-44b3-b998-62a4236aa263")
 	)
 	(junction
 		(at 118.11 55.88)
@@ -2247,16 +1900,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 101.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038dede0-7337-46ed-9f4b-0b680648c0c8")
-	)
-	(wire
-		(pts
 			(xy 152.4 40.64) (xy 153.67 40.64)
 		)
 		(stroke
@@ -2274,16 +1917,6 @@
 			(type default)
 		)
 		(uuid "06da15d8-1ac3-4bb3-bb7f-69aafbf43771")
-	)
-	(polyline
-		(pts
-			(xy 106.68 96.52) (xy 69.85 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ce8d7b-f695-4c6a-8358-42b7b16a6e36")
 	)
 	(wire
 		(pts
@@ -2317,23 +1950,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 101.6 73.66)
+			(xy 63.5 60.96) (xy 67.31 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "136c9f7f-0fd1-4127-8aff-56d783e16b95")
-	)
-	(wire
-		(pts
-			(xy 100.33 39.37) (xy 106.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1afb5874-5d74-4cf6-98f2-f4415d4cb2e3")
+		(uuid "1529adf5-21cb-42c0-8b7d-8348739a8f6b")
 	)
 	(wire
 		(pts
@@ -2377,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 68.58) (xy 109.22 72.39)
+			(xy 100.33 68.58) (xy 100.33 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 62.23) (xy 85.09 69.85)
+			(xy 87.63 63.5) (xy 87.63 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 66.04 62.23)
+			(xy 67.31 63.5) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2437,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 48.26) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec90d4b-feb7-401a-a689-9041e4c8eea7")
+	)
+	(wire
+		(pts
 			(xy 153.67 40.64) (xy 153.67 41.91)
 		)
 		(stroke
@@ -2447,23 +2080,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 83.82 54.61)
+			(xy 87.63 48.26) (xy 87.63 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31e9d11f-dab4-47d0-9430-8887873a4d04")
-	)
-	(polyline
-		(pts
-			(xy 96.52 63.5) (xy 96.52 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33dd3893-1942-4b83-b762-01be3891e695")
 	)
 	(wire
 		(pts
@@ -2497,26 +2120,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3a6d94-f3b8-42aa-993e-8f898c9e1720")
-	)
-	(wire
-		(pts
-			(xy 101.6 63.5) (xy 101.6 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c63f61a-b534-4f78-b9a8-650485a24829")
-	)
-	(wire
-		(pts
 			(xy 137.16 41.91) (xy 137.16 48.26)
 		)
 		(stroke
@@ -2524,16 +2127,6 @@
 			(type default)
 		)
 		(uuid "3dd768ca-df63-43e9-8962-c024fe9f3789")
-	)
-	(wire
-		(pts
-			(xy 90.17 86.36) (xy 90.17 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2283dd-b08b-4dc0-8eb1-a9163e0a3b8e")
 	)
 	(wire
 		(pts
@@ -2557,6 +2150,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445bffd2-e2fc-4f35-aae0-07584ba07a50")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 138.43 53.34)
 		)
 		(stroke
@@ -2567,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 111.76 72.39)
+			(xy 111.76 72.39) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2577,33 +2180,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 62.23) (xy 90.17 62.23)
+			(xy 67.31 60.96) (xy 67.31 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d162ae2-a671-41d7-bc66-2a092089e364")
-	)
-	(wire
-		(pts
-			(xy 111.76 72.39) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da190ab-63e3-4286-a043-90ef72363e1a")
-	)
-	(wire
-		(pts
-			(xy 63.5 60.96) (xy 64.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534e88af-0ba8-4e01-98e2-836ecb57a758")
+		(uuid "53098f81-bdff-44fc-8759-46554fb7871e")
 	)
 	(wire
 		(pts
@@ -2627,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 58.42) (xy 109.22 58.42)
+			(xy 63.5 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2635,15 +2218,15 @@
 		)
 		(uuid "5624ee20-bd68-48e0-b29d-c214c9f7593e")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 96.52 74.93) (xy 106.68 74.93)
+			(xy 63.5 48.26) (xy 67.31 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56262956-9daf-4665-a0e0-8dd9a3964590")
+		(uuid "577cd301-b469-4314-938e-0bfff7074bfe")
 	)
 	(wire
 		(pts
@@ -2657,23 +2240,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 82.55 69.85)
+			(xy 87.63 71.12) (xy 83.82 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59723656-a7b8-480d-bf17-70ab29374260")
-	)
-	(polyline
-		(pts
-			(xy 86.36 76.2) (xy 86.36 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab318dd-b87f-47a2-a2e9-cc5ad12f5528")
 	)
 	(wire
 		(pts
@@ -2697,23 +2270,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 76.2 62.23)
+			(xy 80.01 63.5) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "605dac2f-3ab1-4bbb-968b-8c6343575e25")
-	)
-	(polyline
-		(pts
-			(xy 69.85 76.2) (xy 69.85 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639e0794-6ce1-4161-abdf-83717b892ac2")
 	)
 	(wire
 		(pts
@@ -2757,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 82.55 54.61)
+			(xy 87.63 54.61) (xy 83.82 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 111.76 74.93)
+			(xy 111.76 72.39) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2807,26 +2370,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 69.85) (xy 64.77 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744a45de-b510-4d9c-bc88-3fac86b353ed")
-	)
-	(wire
-		(pts
-			(xy 64.77 81.28) (xy 71.12 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a2ab41-bef8-49aa-8343-de1cbf011d4b")
-	)
-	(wire
-		(pts
 			(xy 67.31 35.56) (xy 67.31 45.72)
 		)
 		(stroke
@@ -2837,26 +2380,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 90.17 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0d2996-792d-4c0b-9705-464a38c592a9")
-	)
-	(polyline
-		(pts
-			(xy 86.36 63.5) (xy 96.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82299c1b-2e6a-4db6-9bcf-1c51a492c805")
-	)
-	(wire
-		(pts
 			(xy 55.88 66.04) (xy 55.88 68.58)
 		)
 		(stroke
@@ -2864,26 +2387,6 @@
 			(type default)
 		)
 		(uuid "90bed5fc-81f1-4a00-b79a-a94e52359c7b")
-	)
-	(polyline
-		(pts
-			(xy 69.85 76.2) (xy 86.36 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b826f0-3227-4d00-9733-c163585ee904")
-	)
-	(wire
-		(pts
-			(xy 90.17 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93242e10-b39b-4777-9d06-5f51797467a6")
 	)
 	(wire
 		(pts
@@ -2935,26 +2438,6 @@
 		)
 		(uuid "9fa8f9eb-1844-47a1-913d-65b8b1784e53")
 	)
-	(polyline
-		(pts
-			(xy 106.68 74.93) (xy 106.68 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff50812-4167-4739-98a6-6f048af95686")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 118.11 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a199f906-471c-4b5e-a398-4ef4d2c268a4")
-	)
 	(wire
 		(pts
 			(xy 148.59 59.69) (xy 152.4 59.69)
@@ -2974,36 +2457,6 @@
 			(type default)
 		)
 		(uuid "a43a8e1c-8a4a-4c6a-87ea-36bff103adb2")
-	)
-	(wire
-		(pts
-			(xy 82.55 81.28) (xy 81.28 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5a0612f-f93a-49ef-937e-c726e0a55a84")
-	)
-	(wire
-		(pts
-			(xy 121.92 72.39) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a639ab92-bc03-4300-8630-501605105f35")
-	)
-	(wire
-		(pts
-			(xy 100.33 55.88) (xy 106.68 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f0d1ae-8067-4025-9604-f93df4c2eb7f")
 	)
 	(wire
 		(pts
@@ -3037,16 +2490,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 64.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1cf3be2-64e6-4d0a-8fe1-048c3ce93e6f")
-	)
-	(wire
-		(pts
 			(xy 118.11 57.15) (xy 129.54 57.15)
 		)
 		(stroke
@@ -3067,16 +2510,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee3dec5-efb7-43ac-b861-2594d128f1ec")
-	)
-	(wire
-		(pts
 			(xy 129.54 34.29) (xy 143.51 34.29)
 		)
 		(stroke
@@ -3087,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 64.77 69.85)
+			(xy 67.31 63.5) (xy 67.31 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 109.22 58.42)
+			(xy 100.33 55.88) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3137,7 +2570,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 92.71 48.26)
+			(xy 87.63 48.26) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3157,17 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 114.3 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b6c2a3-eb25-4529-8f9c-fbcf0d7c0e9b")
-	)
-	(wire
-		(pts
-			(xy 64.77 69.85) (xy 72.39 69.85)
+			(xy 67.31 71.12) (xy 73.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3177,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 48.26) (xy 64.77 54.61)
+			(xy 67.31 48.26) (xy 67.31 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 54.61) (xy 72.39 54.61)
+			(xy 67.31 54.61) (xy 73.66 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 76.2 48.26)
+			(xy 78.74 48.26) (xy 80.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3237,16 +2660,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 48.26) (xy 63.5 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d11167-33d1-400b-9586-4b00c12445da")
-	)
-	(wire
-		(pts
 			(xy 43.18 34.29) (xy 48.26 34.29)
 		)
 		(stroke
@@ -3267,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 72.39) (xy 111.76 72.39)
+			(xy 100.33 72.39) (xy 111.76 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3317,16 +2730,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 106.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8372261-d3ec-4b1b-81b1-f4144d81f858")
-	)
-	(wire
-		(pts
 			(xy 134.62 41.91) (xy 137.16 41.91)
 		)
 		(stroke
@@ -3347,17 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 74.93) (xy 90.17 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca77ada-ed3a-4552-820f-b03bab328001")
-	)
-	(wire
-		(pts
-			(xy 106.68 55.88) (xy 109.22 55.88)
+			(xy 100.33 55.88) (xy 118.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3386,17 +2779,6 @@
 			)
 		)
 		(uuid "1d9ea010-c69a-4e1a-976a-f580f307966c")
-	)
-	(text "Flagged as Questionable\nNot in the reference design.\nBut used upstream by Twisted Fields, so now marked as DNP 	"
-		(exclude_from_sim no)
-		(at 69.85 100.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "288ebd76-0104-4919-96eb-459776740fa1")
 	)
 	(text "Current Sense Filter"
 		(exclude_from_sim no)
@@ -3668,7 +3050,7 @@
 	)
 	(symbol
 		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 77.47 69.85 0)
+		(at 78.74 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3676,7 +3058,7 @@
 		(dnp no)
 		(uuid "0e770eb0-1520-442c-8808-bd8342a444a6")
 		(property "Reference" "R43"
-			(at 73.66 68.3514 0)
+			(at 74.93 69.6214 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3685,7 +3067,7 @@
 			)
 		)
 		(property "Value" "10.2R"
-			(at 73.66 73.152 0)
+			(at 74.93 74.422 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -3694,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 69.85 0)
+			(at 78.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 69.85 0)
+			(at 78.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 69.85 0)
+			(at 78.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3103,7 @@
 			)
 		)
 		(property "LCSC" "C2933129"
-			(at 77.47 69.85 0)
+			(at 78.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,330 +3216,6 @@
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 76.2 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "19794d3f-8a00-410a-9799-013c3f155a3c")
-		(property "Reference" "R41"
-			(at 70.485 79.7814 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100R"
-			(at 72.39 84.582 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 76.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0522d57b-93ab-4245-aac2-e5d786fda4a8")
-		)
-		(pin "2"
-			(uuid "8324caaa-8e5e-4a9c-ba5f-84e4c89af84d")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e6cedaa-b1ae-4c03-b0d9-5f247a53812d")
-		(property "Reference" "#PWR061"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5db9ab24-164d-4f35-960f-61ea92ed5396")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "#PWR061")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 90.17 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "2069da5b-306c-40c2-b033-196d73381416")
-		(property "Reference" "R44"
-			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10.2R"
-			(at 93.472 73.025 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2933129"
-			(at 90.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8377839-55ec-4ac2-915f-9f77901c2ab2")
-		)
-		(pin "2"
-			(uuid "dc6c2179-da68-4323-b2ab-4f245d2453e3")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "22ed2f5a-d72d-4277-99e7-dac507bf2468")
-		(property "Reference" "C31"
-			(at 118.11 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 118.11 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 115.2652 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1615ed34-5fb2-426e-8d7c-3267f9c6dd20")
-		)
-		(pin "2"
-			(uuid "6c266bed-7f2e-45cf-b7af-d60a6ab94c0a")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "C31")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "C19")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4414,86 +3472,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "328a0f30-0eef-4322-8f1c-3254d6dc8f7d")
-		(property "Reference" "R45"
-			(at 108.585 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 108.585 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.902 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fc3fb6c-1595-4d6d-a249-6e554573c105")
-		)
-		(pin "2"
-			(uuid "9f313157-b1ee-4e72-b88d-45d6e093f7d3")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 80.01 48.26 0)
+		(at 83.82 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4501,7 +3481,7 @@
 		(dnp no)
 		(uuid "3d20a41a-154f-44b4-8fe9-847b31b4bda4")
 		(property "Reference" "D11"
-			(at 80.01 45.72 0)
+			(at 83.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +3489,7 @@
 			)
 		)
 		(property "Value" "CDBU0130R-HF"
-			(at 80.01 44.45 0)
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +3498,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 80.01 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +3507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +3516,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 80.01 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +3525,7 @@
 			)
 		)
 		(property "LCSC" "C2886025"
-			(at 80.01 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +3534,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 80.01 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +3543,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,96 +3721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BEC")
-		(at 87.63 81.28 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "5812b6d8-6990-454a-949c-669657082c73")
-		(property "Reference" "Q3"
-			(at 93.98 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PNP_BEC"
-			(at 93.98 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 92.71 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PNP transistor, base/emitter/collector"
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C686646"
-			(at 87.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8715f4d8-0a79-4277-8998-a0a7e2c18525")
-		)
-		(pin "2"
-			(uuid "5ec2ab2f-756b-48a7-aaa8-c9632fb1e061")
-		)
-		(pin "3"
-			(uuid "1808eb4e-ed37-41e8-98b0-6946d0d9bde5")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 26.67 52.07 0)
 		(unit 1)
@@ -4996,7 +3886,7 @@
 	)
 	(symbol
 		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 69.85 48.26 0)
+		(at 73.66 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5004,7 +3894,7 @@
 		(dnp no)
 		(uuid "5fb9855f-04f9-46df-91ce-fa94d804b6e0")
 		(property "Reference" "R39"
-			(at 70.485 44.2214 0)
+			(at 74.295 44.2214 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5013,7 +3903,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 71.755 47.117 0)
+			(at 75.565 47.117 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5022,7 +3912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 48.26 0)
+			(at 73.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +3921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 48.26 0)
+			(at 73.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +3930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 48.26 0)
+			(at 73.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +3939,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 69.85 48.26 0)
+			(at 73.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,170 +4220,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 114.3 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "906778ee-0d09-4377-a0d3-0bef9832da61")
-		(property "Reference" "R46"
-			(at 116.205 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 116.205 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 112.522 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7ef7639-0916-400c-a69f-752ba2f9432a")
-		)
-		(pin "2"
-			(uuid "6729fcc0-1626-4823-8d6a-48f892aa37f8")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "97212202-2316-4538-8f31-1ae6c487eecc")
-		(property "Reference" "C29"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DNP"
-			(at 108.585 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.6348 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "728fe0fe-cd83-40d5-b6d2-3c6c012a7608")
-		)
-		(pin "2"
-			(uuid "f58f87d3-b87c-4908-8929-f7cdecc08bfb")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "C17")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 44.45 0)
 		(unit 1)
@@ -5747,86 +4473,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 106.68 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a88ac0ed-5636-417e-985e-f46c673bc215")
-		(property "Reference" "C30"
-			(at 110.49 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 110.49 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 107.6452 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 106.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8da95f1-ae21-491e-a278-58e1d5e6cb5f")
-		)
-		(pin "2"
-			(uuid "9cd695b8-a00d-4b1d-a852-53e3e231693e")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "C30")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 81.28 62.23 0)
+		(at 83.82 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5834,7 +4482,7 @@
 		(dnp no)
 		(uuid "a9e8c7b3-9316-472f-bd7d-265bef0914a3")
 		(property "Reference" "D12"
-			(at 81.28 59.69 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +4490,7 @@
 			)
 		)
 		(property "Value" "CDBU0130R-HF"
-			(at 81.28 58.42 0)
+			(at 83.82 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +4499,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 81.28 62.23 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +4508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 62.23 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +4517,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 81.28 62.23 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +4526,7 @@
 			)
 		)
 		(property "LCSC" "C2886025"
-			(at 81.28 62.23 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +4535,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 62.23 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +4544,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 62.23 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +4938,7 @@
 	)
 	(symbol
 		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 71.12 62.23 0)
+		(at 73.66 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6298,7 +4946,7 @@
 		(dnp no)
 		(uuid "bb4532da-17db-4137-a45e-a470d64acf6f")
 		(property "Reference" "R40"
-			(at 67.31 60.7314 0)
+			(at 69.85 62.0014 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6307,7 +4955,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 67.945 66.167 0)
+			(at 70.485 67.437 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6316,7 +4964,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 71.12 62.23 0)
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 62.23 0)
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +4982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 62.23 0)
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +4991,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 71.12 62.23 0)
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +5024,7 @@
 	)
 	(symbol
 		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 77.47 54.61 0)
+		(at 78.74 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6384,7 +5032,7 @@
 		(dnp no)
 		(uuid "c68f5acd-af2e-45db-bafe-c71455cac707")
 		(property "Reference" "R42"
-			(at 73.66 53.1114 0)
+			(at 74.93 53.1114 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6393,7 +5041,7 @@
 			)
 		)
 		(property "Value" "10.2R"
-			(at 73.66 57.912 0)
+			(at 74.93 57.912 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6402,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 54.61 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +5059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 54.61 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +5068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 54.61 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +5077,7 @@
 			)
 		)
 		(property "LCSC" "C2933129"
-			(at 77.47 54.61 0)
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +5369,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_SGD")
-		(at 106.68 63.5 0)
+		(at 97.79 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6729,7 +5377,7 @@
 		(dnp no)
 		(uuid "ddf1d0d7-803a-4e2a-988b-8231e60a5bce")
 		(property "Reference" "AL3"
-			(at 100.965 62.23 0)
+			(at 92.075 62.23 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6739,7 +5387,7 @@
 			)
 		)
 		(property "Value" "MOSFETSO-8"
-			(at 98.298 70.104 0)
+			(at 89.408 70.104 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6749,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" "[EastMakes] Mosfets:PowerPAK_SO-8_123"
-			(at 111.76 60.96 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 63.5 0)
+			(at 97.79 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +5415,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, source/gate/drain"
-			(at 106.68 63.5 0)
+			(at 97.79 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +5424,7 @@
 			)
 		)
 		(property "LCSC" "C501507"
-			(at 106.68 63.5 0)
+			(at 97.79 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

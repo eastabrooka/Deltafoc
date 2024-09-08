@@ -400,187 +400,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MotorController:TAYLOR_RESISTOR"
 			(pin_numbers hide)
 			(pin_names
@@ -1694,124 +1513,34 @@
 		)
 	)
 	(junction
-		(at 71.12 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00627b56-f535-4253-88c0-1cee5b08bbd9")
-	)
-	(junction
-		(at 73.66 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb3f859-efbd-4e57-9c84-0fd3d3967c4d")
-	)
-	(junction
-		(at 97.79 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e89882c-c003-4b22-a45a-d4f4f245228e")
-	)
-	(junction
-		(at 132.08 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fca4c43-7190-4931-9148-f7e73f1d49dd")
-	)
-	(junction
 		(at 68.58 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ae39b15-7b15-46ac-b14f-42956b601016")
 	)
 	(junction
-		(at 135.89 39.37)
+		(at 132.08 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66b70666-5e44-4a64-8555-c5d5d74d8470")
-	)
-	(junction
-		(at 132.08 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f966a44-b460-47c7-abeb-dd4525c0a7b4")
-	)
-	(junction
-		(at 78.74 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d357a5d-923a-4380-a3dc-9bc9abcb21c3")
-	)
-	(junction
-		(at 105.41 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "889891e8-80ec-415b-bb0a-f07fa627347c")
-	)
-	(junction
-		(at 73.66 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94bb7fde-f141-4015-9282-136d7562a1ab")
+		(uuid "508b1ce1-6c91-4abe-b8c5-09aec1504665")
 	)
 	(junction
 		(at 100.33 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "968663e6-0391-45a7-aae2-6583d97841be")
+		(uuid "538edc50-8d50-4f91-bcfb-8c9382ecbd50")
 	)
 	(junction
-		(at 78.74 50.8)
+		(at 73.66 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5772b9c-ded2-4d09-902e-4fddd1e72802")
-	)
-	(junction
-		(at 100.33 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6a605ea-f487-457a-91e0-b031e5ce590b")
-	)
-	(junction
-		(at 100.33 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a907db02-4f5a-4dc2-ac50-6b59f19dfbbb")
+		(uuid "b9a6184c-2584-4a6f-8bf2-4df429382239")
 	)
 	(junction
 		(at 81.28 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf4efa03-c83f-40ce-9462-58e40b029d5d")
-	)
-	(junction
-		(at 105.41 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d11c2553-58cb-4f06-971b-07ea47aa24e5")
-	)
-	(junction
-		(at 135.89 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de940a61-ed0d-4ddb-9e67-3918388cdea3")
-	)
-	(junction
-		(at 132.08 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6b4d16c-a0db-4f56-969d-5c7533b8ad5d")
-	)
-	(junction
-		(at 128.27 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6caf24d-1ca0-4204-a09d-e74ed21c428b")
-	)
-	(junction
-		(at 73.66 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f680db34-67d1-45c3-950a-ae4f0f99a7c1")
 	)
 	(wire
 		(pts
@@ -1825,37 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 39.37) (xy 143.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029d2255-5471-4b4a-867a-de4405494eb0")
-	)
-	(wire
-		(pts
-			(xy 132.08 39.37) (xy 135.89 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f2c0f8-42cf-477e-8989-15653f71c7b7")
-	)
-	(wire
-		(pts
-			(xy 73.66 27.94) (xy 77.47 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088720a3-f170-4580-b569-10feb48fdb82")
-	)
-	(wire
-		(pts
-			(xy 97.79 39.37) (xy 97.79 41.91)
+			(xy 100.33 39.37) (xy 100.33 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1872,16 +1571,6 @@
 			(type default)
 		)
 		(uuid "199c74c6-a32f-4e06-9659-c7bd0d9df8be")
-	)
-	(wire
-		(pts
-			(xy 132.08 27.94) (xy 135.89 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1ee5b8-a5f9-46d7-86a1-4bc9ca07bc31")
 	)
 	(wire
 		(pts
@@ -1915,53 +1604,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 39.37) (xy 78.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "278ece66-e03e-43fe-90d6-af60ecda51ff")
-	)
-	(wire
-		(pts
-			(xy 100.33 39.37) (xy 105.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d4c503-6a59-4fa9-8eda-4b20d8a38b3f")
-	)
-	(wire
-		(pts
-			(xy 128.27 39.37) (xy 132.08 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322d24af-ea24-4d29-902b-bac391286190")
-	)
-	(wire
-		(pts
-			(xy 96.52 39.37) (xy 97.79 39.37)
+			(xy 96.52 39.37) (xy 100.33 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47aa5037-f1fd-4da8-a8f2-aeb3fc555dd4")
-	)
-	(wire
-		(pts
-			(xy 100.33 39.37) (xy 97.79 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aea6475-1050-4275-97b1-819fc7145eca")
 	)
 	(wire
 		(pts
@@ -1985,16 +1634,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 77.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5754c4a6-05bf-4895-853e-8292b58db768")
-	)
-	(wire
-		(pts
 			(xy 26.67 95.25) (xy 26.67 97.79)
 		)
 		(stroke
@@ -2015,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 49.53) (xy 71.12 50.8)
+			(xy 73.66 49.53) (xy 73.66 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2045,53 +1684,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 39.37) (xy 71.12 39.37)
+			(xy 69.85 39.37) (xy 73.66 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f751c9a-0c9b-44fb-af7f-303be0748547")
-	)
-	(wire
-		(pts
-			(xy 135.89 50.8) (xy 143.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615792cd-06ae-4e21-b05e-7871d09ce8cb")
-	)
-	(wire
-		(pts
-			(xy 85.09 49.53) (xy 85.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68bdc4b4-e2ab-4d2e-b96e-36aa2768809d")
-	)
-	(wire
-		(pts
-			(xy 73.66 39.37) (xy 78.74 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6913d84c-b0da-4d43-a9a9-4b75fa2c3bfd")
-	)
-	(wire
-		(pts
-			(xy 71.12 39.37) (xy 73.66 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7421bf32-9c95-401f-88f9-365aa5518162")
 	)
 	(wire
 		(pts
@@ -2105,43 +1704,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 39.37) (xy 128.27 41.91)
+			(xy 132.08 39.37) (xy 132.08 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c62f6e7-ea99-48fc-88bf-a36b2e927158")
-	)
-	(wire
-		(pts
-			(xy 135.89 49.53) (xy 135.89 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804c66e5-ff6b-41a6-93ef-0d804bb2daf0")
-	)
-	(wire
-		(pts
-			(xy 105.41 50.8) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f4cb5b-c2b5-47aa-8b85-a7296031f4a9")
-	)
-	(wire
-		(pts
-			(xy 85.09 39.37) (xy 85.09 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8449c24c-c57c-4089-8af5-fd98a2ee48c5")
 	)
 	(wire
 		(pts
@@ -2165,16 +1734,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 39.37) (xy 113.03 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e953f86-7458-4845-9e9f-3363b6e2e78b")
-	)
-	(wire
-		(pts
 			(xy 124.46 77.47) (xy 127 77.47)
 		)
 		(stroke
@@ -2182,36 +1741,6 @@
 			(type default)
 		)
 		(uuid "91d6dea0-cd8c-495b-bc73-0ca84f3aaef9")
-	)
-	(wire
-		(pts
-			(xy 105.41 39.37) (xy 105.41 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f8d99d-ce8c-4e99-8ed0-e72195ec004f")
-	)
-	(wire
-		(pts
-			(xy 105.41 49.53) (xy 105.41 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "929081c9-9b0f-4b12-a19e-1c93a8e7dbf5")
-	)
-	(wire
-		(pts
-			(xy 100.33 38.1) (xy 104.14 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a03b9dac-ba3e-477d-b8b1-d10b7bcc9668")
 	)
 	(wire
 		(pts
@@ -2225,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 49.53) (xy 128.27 50.8)
+			(xy 132.08 49.53) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2245,16 +1774,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 49.53) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba209203-2409-40bd-939f-16ab9d55f547")
-	)
-	(wire
-		(pts
 			(xy 82.55 73.66) (xy 91.44 73.66)
 		)
 		(stroke
@@ -2265,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 39.37) (xy 127 39.37)
+			(xy 127 39.37) (xy 132.08 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +1794,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 49.53) (xy 97.79 50.8)
+			(xy 100.33 49.53) (xy 100.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 39.37) (xy 71.12 41.91)
+			(xy 73.66 39.37) (xy 73.66 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2302,16 +1821,6 @@
 			(type default)
 		)
 		(uuid "d1f78657-7b1c-442a-b9bd-e51af33f9a38")
-	)
-	(wire
-		(pts
-			(xy 135.89 39.37) (xy 135.89 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ebc840-f9cc-47ca-9f27-aafdc3405a47")
 	)
 	(wire
 		(pts
@@ -2335,16 +1844,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 85.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc046b13-8d58-4efc-a263-b59f78c601df")
-	)
-	(wire
-		(pts
 			(xy 68.58 71.12) (xy 67.31 71.12)
 		)
 		(stroke
@@ -2352,26 +1851,6 @@
 			(type default)
 		)
 		(uuid "ddd38ae2-d911-47ac-9dbd-a5a4566d9a24")
-	)
-	(wire
-		(pts
-			(xy 135.89 39.37) (xy 143.51 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0aa0f81-d697-4e82-a220-7e63f6bb02d7")
-	)
-	(wire
-		(pts
-			(xy 143.51 49.53) (xy 143.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43a5b4c-1ea2-4f3a-aa4d-aa9e90e12598")
 	)
 	(wire
 		(pts
@@ -2395,36 +1874,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 78.74 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0eed48-802b-4f5b-ac73-eff8fc9997a9")
-	)
-	(wire
-		(pts
-			(xy 100.33 27.94) (xy 104.14 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f32c3705-cc98-4f71-b139-94c8fca43f05")
-	)
-	(wire
-		(pts
-			(xy 78.74 39.37) (xy 85.09 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38f8d32-4410-4a29-8100-2a840d4ce27d")
-	)
-	(wire
-		(pts
 			(xy 67.31 71.12) (xy 67.31 69.85)
 		)
 		(stroke
@@ -2435,16 +1884,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 39.37) (xy 113.03 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f970b4a2-2fad-4972-96b5-32a516dedf86")
-	)
-	(wire
-		(pts
 			(xy 82.55 81.28) (xy 81.28 81.28)
 		)
 		(stroke
@@ -2452,16 +1891,6 @@
 			(type default)
 		)
 		(uuid "f9f5b609-6e54-4f85-9b56-8bd6649ce3fc")
-	)
-	(wire
-		(pts
-			(xy 132.08 38.1) (xy 135.89 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2b583e-d8da-4f17-94e7-2f709564287d")
 	)
 	(wire
 		(pts
@@ -2639,74 +2068,6 @@
 		(uuid "bfde6c66-e363-4c81-b8f4-3393bf4edd5a")
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 132.08 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "121d236d-d413-4ba9-9cb7-80f67ccd7203")
-		(property "Reference" "JP3"
-			(at 128.27 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 127 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 132.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 132.08 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "302ae86c-6802-4246-add9-9ebc9bb054fe")
-		)
-		(pin "2"
-			(uuid "3645aaa3-7324-44c2-b4c0-c51a9059448d")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 26.67 0)
 		(unit 1)
@@ -2766,240 +2127,6 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26c7c49f-6e6d-4042-95c0-fd4173c3a151")
-		(property "Reference" "C43"
-			(at 103.759 46.8884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p"
-			(at 103.759 40.767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.4448 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1671"
-			(at 105.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2273f846-3d0d-406a-8a22-c887e2c8a563")
-		)
-		(pin "2"
-			(uuid "a72d2d8c-7fca-4893-9fc9-921e25e55c00")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 78.74 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d08fd74-9dad-4981-9d77-c8cb34ce1270")
-		(property "Reference" "C40"
-			(at 77.089 46.8884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p"
-			(at 77.089 40.767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.7748 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1671"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9fab005-ed30-4dc6-8449-69c89b9f165c")
-		)
-		(pin "2"
-			(uuid "d14078f5-c50f-444b-981a-fcb6f89d4b41")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 135.89 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38f23d2a-b483-4452-9ecf-6891534cf91f")
-		(property "Reference" "C46"
-			(at 134.239 46.8884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p"
-			(at 134.239 40.767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.9248 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1671"
-			(at 135.89 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdf2df88-6de1-41d0-bbb4-24ca663d2d20")
-		)
-		(pin "2"
-			(uuid "333ed67e-b3e3-4ca9-adf1-9cf918bf4259")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -3240,7 +2367,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 45.72 180)
+		(at 73.66 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3248,7 +2375,7 @@
 		(dnp no)
 		(uuid "4ea6d58c-7a58-4c34-a4da-e2482c87fe39")
 		(property "Reference" "C39"
-			(at 65.405 50.165 0)
+			(at 67.945 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +2384,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 67.31 45.085 90)
+			(at 69.85 45.085 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +2392,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 70.1548 41.91 0)
+			(at 72.6948 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +2401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 45.72 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +2410,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 71.12 45.72 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +2419,7 @@
 			)
 		)
 		(property "LCSC" "C77069"
-			(at 71.12 45.72 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,86 +2521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 85.09 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "52843488-a33f-40ef-aef6-8aa42555ec2d")
-		(property "Reference" "C41"
-			(at 83.439 46.8884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 83.439 40.767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 84.1248 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73372b71-47a2-452b-b424-761e8e816aab")
-		)
-		(pin "2"
-			(uuid "d632cce2-a6f7-4302-b360-238db3829c27")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 105.41 50.8 0)
+		(at 100.33 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3481,7 +2530,7 @@
 		(dnp no)
 		(uuid "53ec44f9-fa48-4e66-9734-3fd913b84b4f")
 		(property "Reference" "#PWR083"
-			(at 105.41 57.15 0)
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +2539,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.537 55.1942 0)
+			(at 100.457 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +2547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 50.8 0)
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +2556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 50.8 0)
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +2565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 50.8 0)
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,84 +2580,6 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "564e9439-ed27-4a1c-a5fa-c002d64e03e7")
-		(property "Reference" "C47"
-			(at 141.859 46.8884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 141.859 40.767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 142.5448 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 143.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78ab8d1a-feba-4f57-b985-a91fac3f3ebe")
-		)
-		(pin "2"
-			(uuid "45cd9345-31a4-4c61-9f51-df4c6d5e40f3")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -3823,74 +2794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 74.93 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "77d1f2a3-260d-4126-a337-97dfcddcb59a")
-		(property "Reference" "JP1"
-			(at 71.12 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 69.85 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b982efd-9f56-4f7e-ae5b-efdf83c9c864")
-		)
-		(pin "2"
-			(uuid "aec62efe-e0ee-4590-94ac-e38c9ffc597e")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 87.63 73.66 0)
 		(unit 1)
@@ -4047,7 +2950,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 45.72 0)
+		(at 100.33 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4055,7 +2958,7 @@
 		(dnp no)
 		(uuid "9ed50c62-9132-4875-b7de-3b5b75ceb7f7")
 		(property "Reference" "C42"
-			(at 92.075 49.53 0)
+			(at 94.615 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +2967,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 93.98 44.45 90)
+			(at 96.52 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +2975,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 98.7552 49.53 0)
+			(at 101.2952 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +2984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 45.72 0)
+			(at 100.33 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +2993,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.79 45.72 0)
+			(at 100.33 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +3002,7 @@
 			)
 		)
 		(property "LCSC" "C77069"
-			(at 97.79 45.72 0)
+			(at 100.33 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +3157,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 50.8 0)
+		(at 73.66 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4262,7 +3165,7 @@
 		(dnp no)
 		(uuid "b8ebdbf6-d237-4442-b353-3543e199f8af")
 		(property "Reference" "#PWR071"
-			(at 78.74 57.15 0)
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +3174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.867 55.1942 0)
+			(at 73.787 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +3182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 50.8 0)
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +3191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 50.8 0)
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +3200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 50.8 0)
+			(at 73.66 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +3222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 50.8 0)
+		(at 132.08 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4327,7 +3230,7 @@
 		(dnp no)
 		(uuid "bb3530f2-a2dc-45c1-9971-6327f360b0ca")
 		(property "Reference" "#PWR085"
-			(at 135.89 57.15 0)
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +3239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.017 55.1942 0)
+			(at 132.207 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +3247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 50.8 0)
+			(at 132.08 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +3256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 50.8 0)
+			(at 132.08 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +3265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 50.8 0)
+			(at 132.08 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,76 +3429,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.6 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5630e15-bf89-4798-afa3-37e1cb02c7a0")
-		(property "Reference" "JP2"
-			(at 97.79 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 96.52 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4afeac4a-955a-4aab-82e2-7607f49ca543")
-		)
-		(pin "2"
-			(uuid "2d1dc02f-bdae-4fd7-b7b3-57dc467acc54")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 128.27 45.72 0)
+		(at 132.08 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4603,7 +3438,7 @@
 		(dnp no)
 		(uuid "ca137565-22c2-4d29-b35c-cbf3bab64350")
 		(property "Reference" "C45"
-			(at 123.19 49.53 0)
+			(at 127 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +3447,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 124.46 44.45 90)
+			(at 128.27 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 129.2352 49.53 0)
+			(at 133.0452 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +3464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 45.72 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +3473,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 128.27 45.72 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +3482,7 @@
 			)
 		)
 		(property "LCSC" "C77069"
-			(at 128.27 45.72 0)
+			(at 132.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,318 +3565,6 @@
 			(project "BaselineRP2040MotorController"
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 104.14 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e607816f-20bd-4775-a9ef-baf4ce0540b3")
-		(property "Reference" "R53"
-			(at 106.9086 30.48 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 97.536 34.036 90)
-			(effects
-				(font
-					(size 1.651 1.651)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23d337e1-c1d3-49f7-b46f-8cb340df3ab0")
-		)
-		(pin "2"
-			(uuid "312ab72e-1dc9-4d49-b784-1b7bd2586105")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 113.03 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e86fb209-acea-439f-8f36-4a6aeabf2740")
-		(property "Reference" "C44"
-			(at 111.379 46.8884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 111.379 40.767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 112.0648 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29ac0ae7-7b99-4a52-91cd-871a39a6a6f6")
-		)
-		(pin "2"
-			(uuid "6715cb0b-56a2-4e97-b654-76a2ef8ffcf8")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 135.89 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e9b589e1-b171-422d-a013-2e47bc823fb0")
-		(property "Reference" "R55"
-			(at 138.6586 30.48 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 129.286 34.036 90)
-			(effects
-				(font
-					(size 1.651 1.651)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 135.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 135.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c90dc86-b496-48fa-a958-a1ba178ba477")
-		)
-		(pin "2"
-			(uuid "1059ee24-1251-4abb-b409-d54cdf7b79ea")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorController:TAYLOR_RESISTOR")
-		(at 77.47 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "fe3fa77f-7b0f-4861-94a2-c21464ddfae6")
-		(property "Reference" "R51"
-			(at 80.2386 30.48 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 70.866 34.036 90)
-			(effects
-				(font
-					(size 1.651 1.651)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 77.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c674f43-3538-4c1e-abf1-8c657f10176a")
-		)
-		(pin "2"
-			(uuid "0e94f086-3313-410f-bafa-5b9fa54f4ee3")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00"
-					(reference "R51")
 					(unit 1)
 				)
 			)
