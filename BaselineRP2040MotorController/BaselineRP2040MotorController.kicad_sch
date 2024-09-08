@@ -849,16 +849,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 107.95) (xy 171.45 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "111bb3dc-5004-4167-acac-fe5207347f50")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 171.45 83.82)
 		)
 		(stroke
@@ -866,16 +856,6 @@
 			(type default)
 		)
 		(uuid "141abd5f-5938-4fa2-bc02-9516cb3f13a4")
-	)
-	(wire
-		(pts
-			(xy 170.18 111.76) (xy 171.45 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fc3b87-b0cf-4312-b98d-d0768a79d657")
 	)
 	(wire
 		(pts
@@ -1030,16 +1010,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 130.81) (xy 171.45 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6822ca7b-8e98-4971-bc3a-59030458ed24")
-	)
-	(wire
-		(pts
 			(xy 133.35 91.44) (xy 137.16 91.44)
 		)
 		(stroke
@@ -1047,16 +1017,6 @@
 			(type default)
 		)
 		(uuid "6bcd4773-3e99-48dc-8a1a-86857d2b5b70")
-	)
-	(wire
-		(pts
-			(xy 176.53 140.97) (xy 173.99 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d1b9190-b391-43a3-8eed-2e1811316ed9")
 	)
 	(wire
 		(pts
@@ -1070,16 +1030,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 138.43) (xy 171.45 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "822b02f0-f0ca-46f0-beff-9b1f736c5eb2")
-	)
-	(wire
-		(pts
 			(xy 88.9 78.74) (xy 91.44 78.74)
 		)
 		(stroke
@@ -1087,16 +1037,6 @@
 			(type default)
 		)
 		(uuid "94e60cad-5204-4387-982a-29f918bc1707")
-	)
-	(wire
-		(pts
-			(xy 171.45 133.35) (xy 176.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a900176-5679-4c8c-bacc-1034a724b565")
 	)
 	(polyline
 		(pts
@@ -1170,16 +1110,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 140.97) (xy 173.99 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7bb933-e78f-42bb-8d26-3a715ee4c65c")
-	)
-	(wire
-		(pts
 			(xy 167.64 96.52) (xy 171.45 96.52)
 		)
 		(stroke
@@ -1238,16 +1168,6 @@
 			(type default)
 		)
 		(uuid "b2146612-9387-4f16-99b7-ade342fb4db2")
-	)
-	(wire
-		(pts
-			(xy 176.53 135.89) (xy 171.45 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8222035-4ff5-4153-b2d0-459f3f335c2a")
 	)
 	(wire
 		(pts
@@ -1318,16 +1238,6 @@
 			(type default)
 		)
 		(uuid "d982e6ba-797d-4104-ab34-36b6a3718c80")
-	)
-	(wire
-		(pts
-			(xy 171.45 102.87) (xy 170.18 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc2cffba-fd37-425a-b6bf-9e22c39f1b93")
 	)
 	(wire
 		(pts
@@ -1567,17 +1477,6 @@
 		)
 		(uuid "0fcb86ee-79c8-4cbb-ba41-a688982bca0a")
 	)
-	(label "3V3"
-		(at 171.45 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12bf2dc7-ffde-40f3-ba99-cf0ecbd1ea74")
-	)
 	(label "PWM L V"
 		(at 116.84 83.82 180)
 		(fields_autoplaced yes)
@@ -1588,28 +1487,6 @@
 			(justify right bottom)
 		)
 		(uuid "1842ee50-c0ca-4f9c-8af5-0d6695039ed9")
-	)
-	(label "Encoder RX"
-		(at 171.45 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1958b479-8025-4090-84f4-60a19c46bbc1")
-	)
-	(label "Encoder SCK"
-		(at 171.45 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e1dedd0-1c29-431a-b5ea-bd9d06babeae")
 	)
 	(label "CurrentSense1"
 		(at 137.16 88.9 0)
@@ -1743,17 +1620,6 @@
 		)
 		(uuid "685d5d55-f7ce-4d1d-afd4-11f9932ad93b")
 	)
-	(label "CurrentSense3"
-		(at 170.18 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74a99d72-e0dd-44cf-9752-54e476662f4d")
-	)
 	(label "Encoder RX"
 		(at 116.84 91.44 180)
 		(fields_autoplaced yes)
@@ -1811,17 +1677,6 @@
 		)
 		(uuid "9fbd5d23-9664-4a02-b268-d82d0c23c6d2")
 	)
-	(label "CurrentSense2"
-		(at 170.18 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af5eba3a-06f3-4b75-8242-2c2d22fa29e7")
-	)
 	(label "PWM H V"
 		(at 167.64 90.17 180)
 		(fields_autoplaced yes)
@@ -1832,17 +1687,6 @@
 			(justify right bottom)
 		)
 		(uuid "b66f7a4e-4b5b-4e1b-8720-402233f4d18b")
-	)
-	(label "Encoder CS"
-		(at 171.45 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c02dde52-3b3d-4925-a71f-2b4f9b18c575")
 	)
 	(label "12V"
 		(at 137.16 96.52 0)
@@ -1911,17 +1755,6 @@
 			(justify right bottom)
 		)
 		(uuid "f167b850-c479-41b7-8720-4e5d4e52fe98")
-	)
-	(label "CurrentSense1"
-		(at 170.18 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb0816db-ee00-4440-9248-92619c3932f7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2192,73 +2025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 173.99 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b14eef3f-2624-4ea7-a90c-055183dd7df3")
-		(property "Reference" "#PWR0107"
-			(at 173.99 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "768df79f-9a2b-40cb-a19a-cb42faf7a5e1")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 40.64 78.74 180)
 		(unit 1)
@@ -2447,94 +2213,6 @@
 		)
 	)
 	(sheet
-		(at 176.53 128.27)
-		(size 19.05 15.24)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9c8bdc5c-20d8-4fad-a7e8-d43a21fcfb00")
-		(property "Sheetname" "Hall Effect Encoders"
-			(at 176.53 127.5584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Hall Effect.kicad_sch"
-			(at 176.53 144.0946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3+" input
-			(at 176.53 130.81 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9b3ee312-cc6c-4893-ad1d-6abaa874d5ac")
-		)
-		(pin "GND" bidirectional
-			(at 176.53 140.97 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9bc90566-3b42-4cb4-b82b-f81bdb0ac4e6")
-		)
-		(pin "ENC1_RX" input
-			(at 176.53 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "41831a43-ed24-445d-ab05-d5aefe6ffc56")
-		)
-		(pin "ENC1_CS" input
-			(at 176.53 138.43 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e55d086a-6010-4da5-a494-a23365c37b7d")
-		)
-		(pin "ENC1_SCK" input
-			(at 176.53 135.89 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f0a553d7-ffdc-4208-9f91-3e1ef191a13b")
-		)
-		(instances
-			(project "BaselineRP2040MotorController"
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 63.5 73.66)
 		(size 25.4 22.86)
 		(fields_autoplaced yes)
@@ -2692,26 +2370,6 @@
 			)
 			(uuid "556ef82f-db4e-4538-a1a8-2168c51cf3b1")
 		)
-		(pin "V_SENSE" output
-			(at 171.45 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "24479d4d-795a-45c1-b2cc-24577a251e57")
-		)
-		(pin "U_SENSE" output
-			(at 171.45 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "39f1dc05-9779-4595-b9aa-9e4e63652e46")
-		)
 		(pin "GATE_DRIVER_PWR" input
 			(at 171.45 78.74 180)
 			(effects
@@ -2731,16 +2389,6 @@
 				(justify left)
 			)
 			(uuid "4bf47057-4b38-416d-b957-a079b9d18188")
-		)
-		(pin "X_SENSE" output
-			(at 171.45 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6b8a3763-5618-4daf-a655-6a40211dd304")
 		)
 		(instances
 			(project "BaselineRP2040MotorController"
