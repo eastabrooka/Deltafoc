@@ -3,4 +3,4 @@
 	url = KicadFootprints
 [submodule "KicadFootprints"]
 	path = KicadFootprints
-	url = http://localhost:3000/eastabrooka/KicadFootprints.git
+	url = git@github.com:eastabrooka/KicadFootprints.git
