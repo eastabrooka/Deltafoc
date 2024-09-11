@@ -3206,16 +3206,16 @@
 		)
 		(instances
 			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
+					(reference "R6")
+					(unit 1)
+				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
 					(reference "R4")
 					(unit 1)
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
 					(reference "R5")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3382,16 +3382,16 @@
 		)
 		(instances
 			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
+					(reference "#PWR05")
+					(unit 1)
+				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
 					(reference "#PWR03")
 					(unit 1)
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
 					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5180,16 +5180,16 @@
 		)
 		(instances
 			(project "BaselineRP2040MotorController"
+				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
+					(reference "C3")
+					(unit 1)
+				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/70bbc80f-daaf-419a-a8c6-d63d9a60e08e"
 					(reference "C1")
 					(unit 1)
 				)
 				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/c18ba0a7-96c1-4e03-8f0f-e6aa1a6bfcf5"
 					(reference "C2")
-					(unit 1)
-				)
-				(path "/085e5f08-c826-4caa-b8e2-0a741609456e/adfc6ecc-6038-43a2-a2be-baacb83b86f1/5464c955-cdc3-44b9-a505-ba7a9b088c6c"
-					(reference "C3")
 					(unit 1)
 				)
 			)
